@@ -1,0 +1,29 @@
+
+C:\workspaces\ws_ubuntu_1\G20110617_095214_nbp_new>do_git.py edit-batchfiles "created: testfile2.txt" 
+M	testfile.txt
+# On branch edit-batchfiles
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   testfile.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	git_log.txt
+#	testfile3.txt
+no changes added to commit (use "git add" and/or "git commit -a")
+[edit-batchfiles 58298a0] created: testfile2.txt
+ 3 files changed, 19 insertions(+), 1 deletions(-)
+ create mode 100644 git_log.txt
+ create mode 100644 testfile3.txt
+Aborting
+Already up-to-date.
+git co -b edit-batchfiles
+[INFO]Checking out branch: edit-batchfiles
+[INFO]Adding new files
+[INFO]Committing: git commit -a -m "created: testfile2.txt"
+[INFO]Retun to masteer
+[INFO]Merging...
+[INFO]Done

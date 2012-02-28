@@ -1,0 +1,287 @@
+[log 2011/08/18 06:40:40] ------------------------
+File: util.py
+	just_testing
+[/log 2011/08/18 06:40:40] ------------------------
+
+[log 2011/08/18 06:40:56] ------------------------
+File: util.py
+	just_testing
+[/log 2011/08/18 06:40:56] ------------------------
+
+[log 2011/08/19 16:10:28] ------------------------
+<job>: LoggingFile: util.py
+	new_version
+[/log 2011/08/19 16:10:29] ------------------------
+
+[log 2011/08/19 16:11:10] ------------------------
+<job>: Logging
+File: util.py
+	new_version
+[/log 2011/08/19 16:11:10] ------------------------
+
+[log 2011/08/19 16:11:49] ------------------------
+<job>: Versioning
+File: util.py
+Version file: version~util.py=3.4
+New version file: ./STOR_G20110617_095214_nbp_new/version~util.py=3.5
+[/log 2011/08/19 16:11:49] ------------------------
+
+[log 2011/08/19 16:12:41] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.5
+	New version file: ./STOR_G20110617_095214_nbp_new
+[/log 2011/08/19 16:12:41] ------------------------
+
+[log 2011/08/19 16:13:01] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.6
+	New version file: version~util.py=3.7
+[/log 2011/08/19 16:13:01] ------------------------
+
+[log 2011/08/23 10:22:26] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.7
+	New version file: version~util.py=3.8
+[/log 2011/08/23 10:22:26] ------------------------
+
+[log 2011/08/23 10:23:42] ------------------------
+<job>: Logging
+File: util.py
+	edit~f:do_job()~log_dir_create
+[/log 2011/08/23 10:23:42] ------------------------
+
+[log 2011/08/31 09:32:47] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.8
+	New version file: version~util.py=3.9
+[/log 2011/08/31 09:32:47] ------------------------
+
+[log 2011/08/31 09:33:22] ------------------------
+<job>: Logging
+File: util.py
+	add:func:generate_kw
+[/log 2011/08/31 09:33:22] ------------------------
+
+[log 2011/09/19 15:57:50] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.9
+	New version file: version~util.py=3.10
+[/log 2011/09/19 15:57:50] ------------------------
+
+[log 2011/09/19 15:58:24] ------------------------
+<job>: Logging
+File: util.py
+	add 'k' option to 'handle_args' function
+[/log 2011/09/19 15:58:24] ------------------------
+
+[log 2011/09/30 05:55:06] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.10
+	New version file: version~util.py=3.11
+[/log 2011/09/30 05:55:06] ------------------------
+
+[log 2011/09/30 05:55:47] ------------------------
+<job>: Logging
+File: util.py
+	edit: random => option: number only, alphabet only
+[/log 2011/09/30 05:55:47] ------------------------
+
+[log 2011/10/10 19:49:10] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.11
+	New version file: version~util.py=3.12
+[/log 2011/10/10 19:49:10] ------------------------
+
+[log 2011/10/10 19:49:48] ------------------------
+<job>: Logging
+File: util.py
+	edit:extension-less file can be versioned.
+[/log 2011/10/10 19:49:48] ------------------------
+
+[log 2011/11/10 10:11:05] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.12
+	New version file: version~util.py=3.13
+[/log 2011/11/10 10:11:05] ------------------------
+
+[log 2011/11/10 10:11:53] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.12] edit: '-J' option: new function: abort versioning processing
+[/log 2011/11/10 10:11:53] ------------------------
+
+[log 2011/11/10 12:44:22] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.13
+	New version file: version~util.py=3.14
+[/log 2011/11/10 12:44:22] ------------------------
+
+[log 2011/11/10 12:44:48] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.13] clean up
+[/log 2011/11/10 12:44:48] ------------------------
+
+[log 2011/11/10 12:46:18] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.13] clean up
+[/log 2011/11/10 12:46:18] ------------------------
+
+[log 2011/11/10 13:28:55] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.14
+	New version file: version~util.py=3.15
+[/log 2011/11/10 13:28:55] ------------------------
+
+[log 2011/11/10 13:29:37] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.14] clean up
+[/log 2011/11/10 13:29:37] ------------------------
+
+[log 2011/11/10 14:27:43] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.15
+	New version file: version~util.py=3.16
+[/log 2011/11/10 14:27:44] ------------------------
+
+[log 2011/11/10 14:39:56] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.16
+	New version file: version~util.py=3.17
+[/log 2011/11/10 14:39:56] ------------------------
+
+[log 2011/11/10 14:40:17] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.16] clean up
+[/log 2011/11/10 14:40:17] ------------------------
+
+[log 2011/11/10 15:07:55] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.17
+	New version file: version~util.py=3.18
+[/log 2011/11/10 15:07:56] ------------------------
+
+[log 2011/11/10 15:08:12] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.17] clean up
+[/log 2011/11/10 15:08:12] ------------------------
+
+[log 2011/11/10 15:29:06] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.18
+	New version file: version~util.py=3.19
+[/log 2011/11/10 15:29:06] ------------------------
+
+[log 2011/11/10 15:29:47] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.18] finalize: see -> note:'P 34 b'
+[/log 2011/11/10 15:29:47] ------------------------
+
+[log 2011/11/10 15:30:22] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.19
+	New version file: version~util.py=3.20
+[/log 2011/11/10 15:30:22] ------------------------
+
+[log 2011/12/14 06:58:15] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.20
+	New version file: version~util.py=3.21
+[/log 2011/12/14 06:58:15] ------------------------
+
+[log 2011/12/14 06:59:00] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.21] edit: '-k' option: choice for 'a-z' only
+[/log 2011/12/14 06:59:00] ------------------------
+
+[log 2011/12/21 10:10:37] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.21
+	New version file: version~util.py=3.22
+[/log 2011/12/21 10:10:37] ------------------------
+
+[log 2011/12/21 10:10:57] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.22] edit: generate_kw()
+[/log 2011/12/21 10:10:57] ------------------------
+
+[log 2012/01/04 07:51:45] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.22
+	New version file: version~util.py=3.23
+[/log 2012/01/04 07:51:45] ------------------------
+
+[log 2012/01/04 07:52:09] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.23] commenting start
+[/log 2012/01/04 07:52:09] ------------------------
+
+[log 2012/01/04 08:33:09] ------------------------
+<job>: Versioning
+File: util.py
+	Version file: version~util.py=3.23
+	New version file: version~util.py=3.24
+[/log 2012/01/04 08:33:09] ------------------------
+
+[log 2012/01/04 08:33:34] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.24] commenting done; trimming done
+[/log 2012/01/04 08:33:34] ------------------------
+
+[log 2012/01/04 08:38:13] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.24] commenting done; trimming done; '-v' option block --> comment added
+[/log 2012/01/04 08:38:13] ------------------------
+
+[log 2012/01/04 08:38:25] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.24] commenting done; trimming done; '-v' option block --> comment added
+[/log 2012/01/04 08:38:25] ------------------------
+
+[log 2012/01/04 08:39:01] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.24] commenting done; trimming done; '-v' option block --> comment added
+[/log 2012/01/04 08:39:01] ------------------------
+
+[log 2012/01/04 08:46:39] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.24] commenting done; trimming done; '-v' option block --> comment added
+[/log 2012/01/04 08:46:39] ------------------------
+
+[log 2012/01/04 09:00:26] ------------------------
+<job>: Logging
+File: util.py
+	[v=3.24] commenting done; trimming done; '-v' option block --> comment added
+[/log 2012/01/04 09:00:26] ------------------------
+

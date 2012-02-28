@@ -1,0 +1,203 @@
+[log 2011/10/26 16:34:57] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.0
+	New version file: version~lib.c=1.1
+[/log 2011/10/26 16:34:57] ------------------------
+
+[log 2011/10/26 16:35:26] ------------------------
+<job>: Logging
+File: lib.c
+	new function: get_fname => get_time_label also updated
+[/log 2011/10/26 16:35:26] ------------------------
+
+[log 2011/10/26 16:37:50] ------------------------
+<job>: Logging
+File: lib.c
+	new function: get_fname => get_time_label also updated [v=1.1]
+[/log 2011/10/26 16:37:50] ------------------------
+
+[log 2011/10/26 16:39:49] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.1
+	New version file: version~lib.c=1.2
+[/log 2011/10/26 16:39:49] ------------------------
+
+[log 2011/10/26 16:49:03] ------------------------
+<job>: Logging
+File: lib.c
+	func:'confirm' updated => return value set to 'int'
+[/log 2011/10/26 16:49:03] ------------------------
+
+[log 2011/10/26 16:49:12] ------------------------
+<job>: Logging
+File: lib.c
+	func:'confirm' updated => return value set to 'int' [v=1.2]
+[/log 2011/10/26 16:49:12] ------------------------
+
+[log 2011/10/26 16:49:47] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.2
+	New version file: version~lib.c=1.3
+[/log 2011/10/26 16:49:47] ------------------------
+
+[log 2011/10/27 09:19:38] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.3
+	New version file: version~lib.c=1.4
+[/log 2011/10/27 09:19:38] ------------------------
+
+[log 2011/10/27 09:20:39] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.4] edited: #ifndef FILE_INFO, etc. For: G20111020_200106_chap_9_3Dimension
+[/log 2011/10/27 09:20:39] ------------------------
+
+[log 2011/10/27 17:49:57] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.4
+	New version file: version~lib.c=1.5
+[/log 2011/10/27 17:49:57] ------------------------
+
+[log 2011/10/27 17:51:12] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.5
+	New version file: version~lib.c=1.6
+[/log 2011/10/27 17:51:12] ------------------------
+
+[log 2011/10/27 17:51:47] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.5] get_fname() => updated: new param introduced
+[/log 2011/10/27 17:51:47] ------------------------
+
+[log 2011/10/28 08:21:29] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.6
+	New version file: version~lib.c=1.7
+[/log 2011/10/28 08:21:29] ------------------------
+
+[log 2011/10/28 08:21:29] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.6] new: get_fname2() related=G20111008_072536_ip_chp4_filtering_1
+[/log 2011/10/28 08:21:29] ------------------------
+
+[log 2011/10/30 10:18:52] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.7
+	New version file: version~lib.c=1.8
+[/log 2011/10/30 10:18:52] ------------------------
+
+[log 2011/10/30 10:19:46] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.8] add: new: xtod(), little_endian_convert()
+[/log 2011/10/30 10:19:46] ------------------------
+
+[log 2011/10/30 10:25:09] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.8
+	New version file: version~lib.c=1.9
+[/log 2011/10/30 10:25:09] ------------------------
+
+[log 2011/10/30 13:50:06] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.9
+	New version file: version~lib.c=1.10
+[/log 2011/10/30 13:50:06] ------------------------
+
+[log 2011/10/30 13:50:07] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.9] add: func: get_basename()
+[/log 2011/10/30 13:50:07] ------------------------
+
+[log 2011/10/31 18:35:13] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.10] add: func: open_file()
+[/log 2011/10/31 18:35:13] ------------------------
+
+[log 2011/11/06 19:56:50] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.10
+	New version file: version~lib.c=1.11
+[/log 2011/11/06 19:56:50] ------------------------
+
+[log 2011/11/06 21:05:22] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.11
+	New version file: version~lib.c=1.12
+[/log 2011/11/06 21:05:22] ------------------------
+
+[log 2011/11/09 05:39:29] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.12
+	New version file: version~lib.c=1.13
+[/log 2011/11/09 05:39:29] ------------------------
+
+[log 2011/11/09 05:40:03] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.13] new: func: close_file()
+[/log 2011/11/09 05:40:03] ------------------------
+
+[log 2011/11/09 05:40:35] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.13
+	New version file: version~lib.c=1.14
+[/log 2011/11/09 05:40:35] ------------------------
+
+[log 2011/11/10 08:35:01] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.14
+	New version file: version~lib.c=1.15
+[/log 2011/11/10 08:35:01] ------------------------
+
+[log 2011/11/10 08:35:26] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.14] new: func: validate_file_name()
+[/log 2011/11/10 08:35:26] ------------------------
+
+[log 2011/11/14 14:20:07] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.15
+	New version file: version~lib.c=1.16
+[/log 2011/11/14 14:20:07] ------------------------
+
+[log 2011/11/14 14:20:27] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.15] new: func: d2b()
+[/log 2011/11/14 14:20:27] ------------------------
+
+[log 2011/11/14 15:04:56] ------------------------
+<job>: Logging
+File: lib.c
+	[v=1.16] new: func: int b2d(char *bnum)
+[/log 2011/11/14 15:04:56] ------------------------
+
+[log 2011/11/14 15:05:02] ------------------------
+<job>: Versioning
+File: lib.c
+	Version file: version~lib.c=1.16
+	New version file: version~lib.c=1.17
+[/log 2011/11/14 15:05:02] ------------------------
+

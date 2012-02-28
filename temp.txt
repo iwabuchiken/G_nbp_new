@@ -1,0 +1,7 @@
+0
+<subprocess.Popen object at 0x01985290>
+<class 'subprocess.Popen'>
+'C:\\workspaces\\ws_ubuntu_1\\G20110617_095214_nbp_new'
+<built-in function getcwd>
+'C:\\workspaces\\ws_ubuntu_1\\G20110617_095214_nbp_new'
+['__builtins__', '__doc__', '__name__', '__package__', 'cwd', 'os', 'p', 'subprocess', 'sys']

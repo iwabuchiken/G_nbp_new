@@ -1,0 +1,19 @@
+[log 2011/12/09 12:58:35] ------------------------
+<job>: Versioning
+File: lib.py
+	Version file: version~lib.py=1.0
+	New version file: version~lib.py=1.1
+[/log 2011/12/09 12:58:35] ------------------------
+
+[log 2011/12/09 12:58:35] ------------------------
+<job>: Logging
+File: lib.py
+	[v=1.0] stable
+[/log 2011/12/09 12:58:35] ------------------------
+
+[log 2011/12/09 12:59:07] ------------------------
+<job>: Logging
+File: lib.py
+	[v=1.1] stable; add: func: get_encoding_type(string)
+[/log 2011/12/09 12:59:07] ------------------------
+

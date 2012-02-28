@@ -1,0 +1,67 @@
+#file_info
+
+CC = gcc
+CXX = g++
+EXECEXT = .exe
+SRCEXT_C = .c
+SRCEXT_CXX = .cpp
+OBJEXT = .o
+HEADEXT = .h
+MAINFILE = main
+OSNAME = @osname@
+
+T1 = $(MAINFILE)$(EXECEXT)
+IN1 = $(MAINFILE)$(SRCEXT_C)
+IN2 = $(MAINFILE)$(SRCEXT_CXX)
+OBJ1 = $(MAINFILE)$(OBJEXT)
+H1 = $(MAINFILE)$(HEADEXT)
+CMPOPT = -o
+CMPOPT2 = -c
+IOPT = -I./include
+
+$(T1): $(OBJ1)
+	$(CC) $(CMPOPT) $@ $^
+#	$(CC) $(IOPT) $(CMPOPT) $@ $^
+
+$(OBJ1): $(IN1)
+	$(CC) $(IOPT) $(CMPOPT2) $^
+#	$(CC) $(IOPT) $(CMPOPT) $@ $^
+
+.PHONY: all
+all: $(OBJ1) $(T1)
+
+.PHONY: clean
+clean:
+ifeq ($(OSNAME), Windows)
+	del *.exe
+else ifeq ($(OSNAME), Linux)
+	rm *.exe
+else
+	echo ELSE
+endif
+
+.PHONY: clean_all
+clean_all:
+ifeq ($(OSNAME), Windows)
+	del *.exe
+	del *.o
+else ifeq ($(OSNAME), Linux)
+	rm *.exe
+	rm *.o
+else
+	echo ELSE
+endif
+
+.PHONY: clean_o
+clean_o:
+ifeq ($(OSNAME), Windows)
+	del *.o
+else ifeq ($(OSNAME), Linux)
+	rm *.o
+else
+	echo ELSE
+endif
+
+.PHONY: show
+show:
+	echo \<clean clean_all clean_all_win clean_o clean_win clean_win_o\>\<all $(T1)\>

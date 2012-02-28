@@ -1,0 +1,25 @@
+[log 2011/12/11 10:39:44] ------------------------
+<job>: Logging
+File: do_git.py
+	[v=1.0] inital version; untrimmed
+[/log 2011/12/11 10:39:44] ------------------------
+
+[log 2011/12/11 10:41:03] ------------------------
+<job>: Logging
+File: do_git.py
+	[v=1.0] inital version; untrimmed
+[/log 2011/12/11 10:41:03] ------------------------
+
+[log 2011/12/11 10:43:39] ------------------------
+<job>: Versioning
+File: do_git.py
+	Version file: version~do_git.py=1.0
+	New version file: version~do_git.py=1.1
+[/log 2011/12/11 10:43:39] ------------------------
+
+[log 2011/12/11 10:43:39] ------------------------
+<job>: Logging
+File: do_git.py
+	[v=1.0] inital version; untrimmed
+[/log 2011/12/11 10:43:39] ------------------------
+

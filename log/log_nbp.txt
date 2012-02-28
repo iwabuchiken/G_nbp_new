@@ -1,0 +1,1811 @@
+[Session log:20110810_065606]--------------------
+[Session log:20110810_065740]--------------------
+directory=C:\workspaces\ws_ubuntu_1time_label=20110810_065740Project type: pythonDirectory created: C:\workspaces\ws_ubuntu_1\G20110810_065740_testDirectory created: C:\workspaces\ws_ubuntu_1\G20110810_065740_test\STOR_G20110810_065740_testPython files created[2011/08/10 06:57:43][/Session log:20110810_065743]--------------------
+[Session log:20110810_070016]--------------------
+directory=C:\workspaces\ws_ubuntu_1time_label=20110810_070016Project type: pythonDirectory created: C:\workspaces\ws_ubuntu_1\G20110810_070016_testDirectory created: C:\workspaces\ws_ubuntu_1\G20110810_070016_test\STOR_G20110810_070016_testPython files created[2011/08/10 07:00:17]
+[/Session log:20110810_070017]--------------------
+[Session log:20110810_070123]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_070123
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070123_testDirectory created: C:\workspaces\ws_ubuntu_1\G20110810_070123_test\STOR_G20110810_070123_testPython files created[2011/08/10 07:01:24]
+[/Session log:20110810_070124]--------------------
+[Session log:20110810_070233]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_070233
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070233_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070233_test\STOR_G20110810_070233_test
+Python files created[2011/08/10 07:02:34]
+[/Session log:20110810_070234
+]--------------------
+[Session log:20110810_070322]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_070322
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070322_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070322_test\STOR_G20110810_070322_test
+Python files created[2011/08/10 07:03:23]
+[/Session log:20110810_070323]--------------------
+[Session log:2011/08/10 07:05:33]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_070533
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070533_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070533_test\STOR_G20110810_070533_test
+Python files created[2011/08/10 07:05:35]
+[/Session log:2011/08/10 07:05:35]--------------------
+[Session log:2011/08/10 07:05:51]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_070551
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070551_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070551_test\STOR_G20110810_070551_test
+cpp files created[2011/08/10 07:05:54]
+[/Session log:2011/08/10 07:05:54]--------------------
+[Session log:2011/08/10 07:06:33]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_070633
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070633_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070633_test\STOR_G20110810_070633_test
+cpp files created[2011/08/10 07:06:35]
+[/Session log:2011/08/10 07:06:35]--------------------
+
+[Session log:2011/08/10 07:06:44]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_070644
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070644_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_070644_test\STOR_G20110810_070644_test
+java files created[2011/08/10 07:06:47]
+[/Session log:2011/08/10 07:06:47]--------------------
+
+[Session log:2011/08/10 07:13:54]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_071354
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_071354_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_071354_test\STOR_G20110810_071354_test
+java files created[2011/08/10 07:13:55]
+[/Session log:2011/08/10 07:13:55]--------------------
+
+[Session log:2011/08/10 07:13:59]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_071359
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_071359_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_071359_test\STOR_G20110810_071359_test
+java files created[2011/08/10 07:14:00]
+[/Session log:2011/08/10 07:14:00]--------------------
+
+[Session log:2011/08/10 07:14:59]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_071459
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_071459_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_071459_test\STOR_G20110810_071459_test
+java files created[2011/08/10 07:15:00]
+[/Session log:2011/08/10 07:15:00]--------------------
+
+[Session log:2011/08/10 14:08:40]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110810_140840
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_140840_yahoo_news_colored_texts_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110810_140840_yahoo_news_colored_texts_1\STOR_G20110810_140840_yahoo_news_colored_texts_1
+Python files created[2011/08/10 14:08:48]
+[/Session log:2011/08/10 14:08:48]--------------------
+
+[Session log:2011/08/12 05:51:17]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110812_055117
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/12 05:59:12]--------------------
+[Session log:2011/08/12 16:52:33]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110812_165233
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/12 16:52:39]--------------------
+[Session log:2011/08/13 06:03:12]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110813_060312
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/13 06:03:31]--------------------
+[Session log:2011/08/13 08:56:49]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110813_085649
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/13 08:57:00]--------------------
+[Session log:2011/08/15 10:14:09]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110815_101409
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110815_101409_yahoo_text_processing_color_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110815_101409_yahoo_text_processing_color_1\STOR_G20110815_101409_yahoo_text_processing_color_1
+Python files created[2011/08/15 10:15:29]
+[/Session log:2011/08/15 10:15:29]--------------------
+
+[Session log:2011/08/15 11:00:21]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110815_110021
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110815_110021_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110815_110021_test\STOR_G20110815_110021_test
+Python files created[2011/08/15 11:00:24]
+[/Session log:2011/08/15 11:00:24]--------------------
+
+[Session log:2011/08/16 09:45:30]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110816_094530
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_094530_file_lock_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_094530_file_lock_1\STOR_G20110816_094530_file_lock_1
+Python files created[2011/08/16 09:45:39]
+[/Session log:2011/08/16 09:45:39]--------------------
+
+[Session log:2011/08/16 10:08:08]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110816_100808
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_100808_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_100808_test\STOR_G20110816_100808_test
+Python files created[2011/08/16 10:08:10]
+[/Session log:2011/08/16 10:08:10]--------------------
+
+[Session log:2011/08/16 12:19:16]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110816_121916
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/16 12:19:18]--------------------
+[Session log:2011/08/16 12:19:21]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110816_121921
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_121921_java_thread_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_121921_java_thread_1\STOR_G20110816_121921_java_thread_1
+java files created[2011/08/16 12:19:26]
+[/Session log:2011/08/16 12:19:26]--------------------
+
+[Session log:2011/08/16 12:24:23]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110816_122423
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_122423_java_thread_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_122423_java_thread_1\STOR_G20110816_122423_java_thread_1
+java files created[2011/08/16 12:24:26]
+[/Session log:2011/08/16 12:24:26]--------------------
+
+[Session log:2011/08/16 12:44:48]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110816_124448
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/16 12:44:50]--------------------
+[Session log:2011/08/16 12:44:53]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110816_124453
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_124453_c_thread_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110816_124453_c_thread_1\STOR_G20110816_124453_c_thread_1
+cpp files created[2011/08/16 12:45:04]
+[/Session log:2011/08/16 12:45:04]--------------------
+
+[Session log:2011/08/17 07:27:17]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110817_072717
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110817_072717_image_processing_line_detect_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110817_072717_image_processing_line_detect_1\STOR_G20110817_072717_image_processing_line_detect_1
+Python files created[2011/08/17 07:27:34]
+[/Session log:2011/08/17 07:27:34]--------------------
+
+[Session log:2011/08/17 10:54:54]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110817_105454
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110817_105454_py_voice_recognition_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110817_105454_py_voice_recognition_1\STOR_G20110817_105454_py_voice_recognition_1
+Python files created[2011/08/17 10:57:36]
+[/Session log:2011/08/17 10:57:36]--------------------
+
+[Session log:2011/08/17 15:55:38]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110817_155538
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/17 19:42:58]--------------------
+[Session log:2011/08/18 06:18:05]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110818_061805
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/18 06:18:11]--------------------
+[Session log:2011/08/18 06:22:20]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110818_062220
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110818_062220_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110818_062220_test\STOR_G20110818_062220_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110818_062220_test\log
+Python files created[2011/08/18 06:22:23]
+[/Session log:2011/08/18 06:22:23]--------------------
+
+[Session log:2011/08/18 08:54:21]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110818_085421
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/18 13:09:39]--------------------
+[Session log:2011/08/18 13:09:53]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110818_130953
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/18 13:24:46]--------------------
+[Session log:2011/08/22 09:12:32]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110822_091232
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/22 15:27:05]--------------------
+[Session log:2011/08/23 15:22:42]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110823_152242
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/23 15:23:33]--------------------
+[Session log:2011/08/23 16:53:32]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110823_165332
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/23 16:54:12]--------------------
+[Session log:2011/08/24 10:49:49]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110824_104949
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_104949
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_104949\STOR_G20110824_104949
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_104949\log
+[Session log:2011/08/24 10:53:56]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110824_105356
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105356
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105356\STOR_G20110824_105356
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105356\log
+Python files created[2011/08/24 10:53:58]
+[/Session log:2011/08/24 10:53:58]--------------------
+
+[Session log:2011/08/24 10:58:04]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110824_105804
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105804_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105804_test\STOR_G20110824_105804_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105804_test\log
+Python files created[2011/08/24 10:58:06]
+[/Session log:2011/08/24 10:58:06]--------------------
+
+[Session log:2011/08/24 10:59:08]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110824_105908
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105908_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105908_test\STOR_G20110824_105908_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_105908_test\log
+Python files created[2011/08/24 10:59:10]
+[/Session log:2011/08/24 10:59:10]--------------------
+
+[Session log:2011/08/24 11:02:46]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110824_110246
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_110246_imap_email_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_110246_imap_email_1\STOR_G20110824_110246_imap_email_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_110246_imap_email_1\log
+Python files created[2011/08/24 11:02:51]
+[/Session log:2011/08/24 11:02:51]--------------------
+
+[Session log:2011/08/24 15:55:45]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110824_155545
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_155545_PIC10_20110823_165332
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_155545_PIC10_20110823_165332\STOR_G20110824_155545_PIC10_20110823_165332
+Directory created: C:\workspaces\ws_ubuntu_1\G20110824_155545_PIC10_20110823_165332\log
+Python files created[2011/08/24 15:55:48]
+[/Session log:2011/08/24 15:55:48]--------------------
+
+[Session log:2011/08/25 07:47:08]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110825_074708
+Project type: ruby
+'Create a project' ==> 'n' chosen
+[/Session log:2011/08/25 07:47:29]--------------------
+[Session log:2011/08/25 07:47:33]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110825_074733
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110825_074733_ruby_cgi_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110825_074733_ruby_cgi_1\STOR_G20110825_074733_ruby_cgi_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110825_074733_ruby_cgi_1\log
+Ruby files created[2011/08/25 07:47:41]
+[/Session log:2011/08/25 07:47:41]--------------------
+
+[Session log:2011/08/25 09:47:44]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110825_094744
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110825_094744_ruby_ajax_10days_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110825_094744_ruby_ajax_10days_1\STOR_G20110825_094744_ruby_ajax_10days_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110825_094744_ruby_ajax_10days_1\log
+Ruby files created[2011/08/25 09:47:51]
+[/Session log:2011/08/25 09:47:51]--------------------
+
+[Session log:2011/08/25 14:25:35]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_142535
+Project type: ee
+Execution not chosen.
+[Session log:2011/08/25 14:26:22]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_142622
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_142622
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_142622\STOR_G20110825_142622
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_142622\log
+Ruby files created[2011/08/25 14:26:24]
+[/Session log:2011/08/25 14:26:24]--------------------
+
+[Session log:2011/08/25 14:28:46]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_142846
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_142846
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_142846\STOR_G20110825_142846
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_142846\log
+Ruby files created[2011/08/25 14:28:48]
+[/Session log:2011/08/25 14:28:48]--------------------
+
+[Session log:2011/08/25 14:56:12]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_145612
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_145612_buzzer_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_145612_buzzer_1\STOR_G20110825_145612_buzzer_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_145612_buzzer_1\log
+Ruby files created[2011/08/25 14:56:24]
+[/Session log:2011/08/25 14:56:24]--------------------
+
+[Session log:2011/08/25 15:35:24]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_153524
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_153524_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_153524_test\STOR_G20110825_153524_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_153524_test\log
+Ruby files created[2011/08/25 15:35:25]
+[/Session log:2011/08/25 15:35:25]--------------------
+
+[Session log:2011/08/25 15:39:33]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_153933
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_153933_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_153933_test\STOR_G20110825_153933_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_153933_test\log
+Ruby files created[2011/08/25 15:39:34]
+[/Session log:2011/08/25 15:39:34]--------------------
+
+[Session log:2011/08/25 15:40:20]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_154020
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_154020_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_154020_test\STOR_G20110825_154020_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_154020_test\log
+Ruby files created[2011/08/25 15:40:22]
+[/Session log:2011/08/25 15:40:22]--------------------
+
+[Session log:2011/08/25 15:42:47]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_154247
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_154247_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_154247_test\STOR_G20110825_154247_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\G20110825_154247_test\log
+Ruby files created[2011/08/25 15:42:48]
+[/Session log:2011/08/25 15:42:48]--------------------
+
+[Session log:2011/08/25 15:44:46]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110825_154446
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110825_154446_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110825_154446_test\STOR_PIC10_20110825_154446_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110825_154446_test\log
+Ruby files created[2011/08/25 15:44:47]
+[/Session log:2011/08/25 15:44:47]--------------------
+
+[Session log:2011/08/26 09:44:04]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110826_094404
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110826_094404_use_btfss_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110826_094404_use_btfss_1\STOR_PIC10_20110826_094404_use_btfss_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110826_094404_use_btfss_1\log
+Ruby files created[2011/08/26 09:44:18]
+[/Session log:2011/08/26 09:44:18]--------------------
+
+[Session log:2011/08/26 14:10:37]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110826_141037
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110826_141037_pic12_LED_on-off_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110826_141037_pic12_LED_on-off_1\STOR_PIC10_20110826_141037_pic12_LED_on-off_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110826_141037_pic12_LED_on-off_1\log
+Ruby files created[2011/08/26 14:11:42]
+[/Session log:2011/08/26 14:11:42]--------------------
+
+[Session log:2011/08/29 14:34:02]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110829_143402
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110829_143402_ruby_learn_02
+Directory created: C:\workspaces\ws_ubuntu_1\G20110829_143402_ruby_learn_02\STOR_G20110829_143402_ruby_learn_02
+Directory created: C:\workspaces\ws_ubuntu_1\G20110829_143402_ruby_learn_02\log
+Ruby files created[2011/08/29 14:34:06]
+[/Session log:2011/08/29 14:34:06]--------------------
+
+[Session log:2011/08/30 15:31:21]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110830_153121
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_153121_ruby_ajax_10days_2
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_153121_ruby_ajax_10days_2\STOR_G20110830_153121_ruby_ajax_10days_2
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_153121_ruby_ajax_10days_2\log
+Python files created[2011/08/30 15:31:27]
+[/Session log:2011/08/30 15:31:27]--------------------
+
+[Session log:2011/08/30 15:44:12]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110830_154412
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_154412_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_154412_test\STOR_G20110830_154412_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_154412_test\log
+Ruby files created[2011/08/30 15:44:15]
+[/Session log:2011/08/30 15:44:15]--------------------
+
+[Session log:2011/08/30 15:46:39]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110830_154639
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_154639_test_java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_154639_test_java\STOR_G20110830_154639_test_java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_154639_test_java\log
+java files created[2011/08/30 15:46:42]
+[/Session log:2011/08/30 15:46:42]--------------------
+
+[Session log:2011/08/30 17:10:20]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110830_171020
+Project type: ruby
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_171020_ruby_ajax_10days_3_class
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_171020_ruby_ajax_10days_3_class\STOR_G20110830_171020_ruby_ajax_10days_3_class
+Directory created: C:\workspaces\ws_ubuntu_1\G20110830_171020_ruby_ajax_10days_3_class\log
+Ruby files created[2011/08/30 17:10:32]
+[/Session log:2011/08/30 17:10:32]--------------------
+
+[Session log:2011/08/31 10:48:31]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110831_104831
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110831_104831_py_Beautiful_xml_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110831_104831_py_Beautiful_xml_1\STOR_G20110831_104831_py_Beautiful_xml_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110831_104831_py_Beautiful_xml_1\log
+Python files created[2011/08/31 10:48:35]
+[/Session log:2011/08/31 10:48:35]--------------------
+
+[Session log:2011/09/01 12:51:37]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110901_125137
+Project type: python
+[Session log:2011/09/01 12:51:54]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110901_125154
+Project type: python
+[Session log:2011/09/01 12:53:27]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110901_125327
+Project type: python
+[Session log:2011/09/01 12:53:30]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110901_125330
+Project type: python
+[Session log:2011/09/01 12:53:59]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110901_125359
+Project type: python
+[Session log:2011/09/01 12:54:02]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110901_125402
+Project type: python
+[Session log:2011/09/01 12:58:45]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_125845
+Project type: ee
+Execution not chosen.
+[Session log:2011/09/01 12:59:42]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_125942
+Project type: ee
+Execution not chosen.
+[Session log:2011/09/01 13:01:45]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_130145
+Project type: ee
+Execution not chosen.
+[Session log:2011/09/01 13:01:55]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_130155
+Project type: ee
+Execution not chosen.
+[Session log:2011/09/01 13:02:02]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_130202
+Project type: ee
+Execution not chosen.
+[Session log:2011/09/01 13:02:09]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_130209
+Project type: ee
+Execution not chosen.
+[Session log:2011/09/01 13:02:33]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_130233
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_130233_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_130233_test\STOR_PIC10_20110901_130233_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_130233_test\log
+Ruby files created[2011/09/01 13:02:39]
+[/Session log:2011/09/01 13:02:39]--------------------
+
+[Session log:2011/09/01 13:03:39]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_130339
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_130339_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_130339_test\STOR_PIC10_20110901_130339_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_130339_test\log
+Ruby files created[2011/09/01 13:03:42]
+[/Session log:2011/09/01 13:03:42]--------------------
+
+[Session log:2011/09/01 13:07:05]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_130705
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC00_20110901_130705_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC00_20110901_130705_test\STOR_PIC00_20110901_130705_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC00_20110901_130705_test\log
+Ruby files created[2011/09/01 13:07:08]
+[/Session log:2011/09/01 13:07:08]--------------------
+
+[Session log:2011/09/01 13:09:57]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_130957
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110901_130957_test_p12
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110901_130957_test_p12\STOR_PIC12_20110901_130957_test_p12
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110901_130957_test_p12\log
+ee files created[2011/09/01 13:10:01]
+[/Session log:2011/09/01 13:10:01]--------------------
+
+[Session log:2011/09/01 13:16:41]--------------------
+[Session log:2011/09/01 13:16:55]--------------------
+[Session log:2011/09/01 13:17:41]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_131741
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_131741_p10_LED_plus_capacitor_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_131741_p10_LED_plus_capacitor_1\STOR_PIC10_20110901_131741_p10_LED_plus_capacitor_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_131741_p10_LED_plus_capacitor_1\log
+ee files created[2011/09/01 13:17:49]
+[/Session log:2011/09/01 13:17:49]--------------------
+
+[Session log:2011/09/01 13:25:29]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_132529
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_132529_test_p10
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_132529_test_p10\STOR_PIC10_20110901_132529_test_p10
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_132529_test_p10\log
+[Session log:2011/09/01 13:26:12]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110901_132612
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_132612_test_p10
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_132612_test_p10\STOR_PIC10_20110901_132612_test_p10
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110901_132612_test_p10\log
+[Session log:2011/09/02 14:55:23]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_145523
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_145523_pic10_LED_onoff_GPIO_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_145523_pic10_LED_onoff_GPIO_1\STOR_PIC10_20110902_145523_pic10_LED_onoff_GPIO_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_145523_pic10_LED_onoff_GPIO_1\log
+ee files created[2011/09/02 14:55:34]
+[/Session log:2011/09/02 14:55:40]--------------------
+
+[Session log:2011/09/02 15:14:43]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_151443
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_151443_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_151443_pic10_test\STOR_PIC10_20110902_151443_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_151443_pic10_test\log
+ee files created[2011/09/02 15:14:45]
+[/Session log:2011/09/02 15:14:48]--------------------
+
+[Session log:2011/09/02 15:18:38]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_151838
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_151838_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_151838_pic10_test\STOR_PIC10_20110902_151838_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_151838_pic10_test\log
+ee files created[2011/09/02 15:18:40]
+[/Session log:2011/09/02 15:18:47]--------------------
+
+[Session log:2011/09/02 15:22:36]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_152236
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152236_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152236_pic10_test\STOR_PIC10_20110902_152236_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152236_pic10_test\log
+ee files created[2011/09/02 15:22:38]
+[/Session log:2011/09/02 15:22:41]--------------------
+
+[Session log:2011/09/02 15:24:36]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_152436
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152436_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152436_pic10_test\STOR_PIC10_20110902_152436_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152436_pic10_test\log
+ee files created[2011/09/02 15:24:38]
+[/Session log:2011/09/02 15:24:41]--------------------
+
+[Session log:2011/09/02 15:25:26]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_152526
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152526_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152526_pic10_test\STOR_PIC10_20110902_152526_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152526_pic10_test\log
+ee files created[2011/09/02 15:25:29]
+[/Session log:2011/09/02 15:25:31]--------------------
+
+[Session log:2011/09/02 15:26:02]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_152602
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152602_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152602_pic10_test\STOR_PIC10_20110902_152602_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_152602_pic10_test\log
+ee files created[2011/09/02 15:26:04]
+[/Session log:2011/09/02 15:26:05]--------------------
+
+[Session log:2011/09/02 15:31:59]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_153159
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153159_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153159_pic10_test\STOR_PIC10_20110902_153159_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153159_pic10_test\log
+ee files created[2011/09/02 15:32:01]
+[/Session log:2011/09/02 15:32:02]--------------------
+
+[Session log:2011/09/02 15:32:48]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_153248
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153248_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153248_pic10_test\STOR_PIC10_20110902_153248_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153248_pic10_test\log
+ee files created[2011/09/02 15:32:50]
+[/Session log:2011/09/02 15:32:51]--------------------
+
+[Session log:2011/09/02 15:33:56]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110902_153356
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153356_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153356_pic10_test\STOR_PIC10_20110902_153356_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110902_153356_pic10_test\log
+ee files created[2011/09/02 15:33:58]
+[/Session log:2011/09/02 15:34:00]--------------------
+
+[Session log:2011/09/05 17:31:14]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110905_173114
+Project type: ee
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/05 17:31:33]--------------------
+[Session log:2011/09/06 14:13:52]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110906_141352
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/06 16:22:54]--------------------
+[Session log:2011/09/07 09:58:31]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110907_095831
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/07 12:38:19]--------------------
+[Session log:2011/09/07 13:26:21]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110907_132621
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/07 13:28:18]--------------------
+[Session log:2011/09/07 13:42:04]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110907_134204
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110907_134204_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110907_134204_pic10_test\STOR_PIC10_20110907_134204_pic10_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC10_20110907_134204_pic10_test\log
+ee files created[2011/09/07 13:42:07]
+[/Session log:2011/09/07 13:42:47]--------------------
+
+[Session log:2011/09/07 13:43:01]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110907_134301
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110907_134301_pic12_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110907_134301_pic12_test\STOR_PIC12_20110907_134301_pic12_test
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110907_134301_pic12_test\log
+ee files created[2011/09/07 13:43:03]
+[/Session log:2011/09/07 13:43:05]--------------------
+
+[Session log:2011/09/07 13:47:07]--------------------
+directory=C:\workspaces\ws_ee_1\mplab\projects
+time_label=20110907_134707
+Project type: ee
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110907_134707_pic12_LED_on-off_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110907_134707_pic12_LED_on-off_1\STOR_PIC12_20110907_134707_pic12_LED_on-off_1
+Directory created: C:\workspaces\ws_ee_1\mplab\projects\PIC12_20110907_134707_pic12_LED_on-off_1\log
+ee files created[2011/09/07 13:47:10]
+[/Session log:2011/09/07 13:47:13]--------------------
+
+[Session log:2011/09/08 07:32:40]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_073240
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/08 14:30:13]--------------------
+[Session log:2011/09/08 14:55:40]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_145540
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_145540_nbp_GUInize_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_145540_nbp_GUInize_1\STOR_G20110908_145540_nbp_GUInize_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_145540_nbp_GUInize_1\log
+Python files created[2011/09/08 14:55:53]
+[/Session log:2011/09/08 14:55:53]--------------------
+
+[Session log:2011/09/08 15:01:25]--------------------
+[Session log:2011/09/08 15:21:01]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_152101
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152101_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152101_test\STOR_G20110908_152101_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152101_test\log
+Python files created[2011/09/08 15:21:09]
+[/Session log:2011/09/08 15:21:09]--------------------
+
+[Session log:2011/09/08 15:22:40]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_152240
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152240_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152240_test\STOR_G20110908_152240_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152240_test\log
+Python files created[2011/09/08 15:22:45]
+[/Session log:2011/09/08 15:22:45]--------------------
+
+[Session log:2011/09/08 15:28:43]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_152843
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152843_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152843_test\STOR_G20110908_152843_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_152843_test\log
+Python files created[2011/09/08 15:28:48]
+[/Session log:2011/09/08 15:28:48]--------------------
+
+[Session log:2011/09/08 15:30:29]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_153029
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153029_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153029_test\STOR_G20110908_153029_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153029_test\log
+Python files created[2011/09/08 15:30:33]
+[/Session log:2011/09/08 15:30:33]--------------------
+
+[Session log:2011/09/08 15:32:04]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_153204
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153204_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153204_test\STOR_G20110908_153204_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153204_test\log
+Python files created[2011/09/08 15:32:08]
+[/Session log:2011/09/08 15:32:08]--------------------
+
+[Session log:2011/09/08 15:32:36]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_153236
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153236_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153236_test\STOR_G20110908_153236_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153236_test\log
+Python files created[2011/09/08 15:32:39]
+[/Session log:2011/09/08 15:32:39]--------------------
+
+[Session log:2011/09/08 15:33:39]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_153339
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153339_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153339_test\STOR_G20110908_153339_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153339_test\log
+Python files created[2011/09/08 15:33:45]
+[/Session log:2011/09/08 15:33:45]--------------------
+
+[Session log:2011/09/08 15:34:37]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_153437
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153437_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153437_test\STOR_G20110908_153437_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_153437_test\log
+Python files created[2011/09/08 15:34:40]
+[/Session log:2011/09/08 15:34:40]--------------------
+
+[Session log:2011/09/08 15:50:38]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110908_155038
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_155038_java_applet_animation_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_155038_java_applet_animation_1\STOR_G20110908_155038_java_applet_animation_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110908_155038_java_applet_animation_1\log
+java files created[2011/09/08 15:50:42]
+[/Session log:2011/09/08 15:50:42]--------------------
+
+[Session log:2011/09/09 07:54:52]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110909_075452
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/09 07:55:00]--------------------
+[Session log:2011/09/11 22:33:29]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110911_223329
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110911_223329_patch_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110911_223329_patch_1\STOR_G20110911_223329_patch_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110911_223329_patch_1\log
+Python files created[2011/09/11 22:33:33]
+[/Session log:2011/09/11 22:33:33]--------------------
+
+[Session log:2011/09/12 10:06:27]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110912_100627
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_100627
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_100627\STOR_G20110912_100627
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_100627\log
+Python files created[2011/09/12 10:06:28]
+[/Session log:2011/09/12 10:06:28]--------------------
+
+[Session log:2011/09/12 10:11:12]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110912_101112
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/12 10:11:17]--------------------
+[Session log:2011/09/12 10:12:27]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110912_101227
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_101227_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_101227_test\STOR_G20110912_101227_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_101227_test\log
+Python files created[2011/09/12 10:12:27]
+[/Session log:2011/09/12 10:12:27]--------------------
+
+[Session log:2011/09/12 10:17:46]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110912_101746
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_101746_patch_ruby-186
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_101746_patch_ruby-186\STOR_G20110912_101746_patch_ruby-186
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_101746_patch_ruby-186\log
+Python files created[2011/09/12 10:17:46]
+[/Session log:2011/09/12 10:17:46]--------------------
+
+[Session log:2011/09/12 15:10:11]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110912_151011
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_151011_machine_learning_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_151011_machine_learning_01\STOR_G20110912_151011_machine_learning_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20110912_151011_machine_learning_01\log
+Python files created[2011/09/12 15:10:11]
+[/Session log:2011/09/12 15:10:11]--------------------
+
+[Session log:2011/09/13 05:10:47]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110913_051047
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110913_051047_ci_search_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110913_051047_ci_search_1\STOR_G20110913_051047_ci_search_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110913_051047_ci_search_1\log
+Python files created[2011/09/13 05:10:47]
+[/Session log:2011/09/13 05:10:47]--------------------
+
+[Session log:2011/09/14 12:29:47]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110914_122947
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110914_122947_jwcad_download_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110914_122947_jwcad_download_1\STOR_G20110914_122947_jwcad_download_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110914_122947_jwcad_download_1\log
+Python files created[2011/09/14 12:29:47]
+[/Session log:2011/09/14 12:29:47]--------------------
+
+[Session log:2011/09/15 20:11:15]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110915_201115
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/15 21:52:18]--------------------
+[Session log:2011/09/16 12:16:06]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110916_121606
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/16 15:52:36]--------------------
+[Session log:2011/09/16 15:52:46]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110916_155246
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/16 15:53:17]--------------------
+[Session log:2011/09/19 12:52:40]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110919_125240
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/19 12:52:46]--------------------
+[Session log:2011/09/19 16:22:28]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110919_162228
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/19 16:59:55]--------------------
+[Session log:2011/09/20 13:27:49]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110920_132749
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/20 13:27:53]--------------------
+[Session log:2011/09/20 16:46:07]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110920_164607
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/20 17:12:50]--------------------
+[Session log:2011/09/20 17:13:23]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110920_171323
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110920_171323_nlp_japanese_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20110920_171323_nlp_japanese_01\STOR_G20110920_171323_nlp_japanese_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20110920_171323_nlp_japanese_01\log
+Python files created[2011/09/20 17:13:23]
+[/Session log:2011/09/20 17:13:23]--------------------
+
+[Session log:2011/09/21 15:32:22]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110921_153222
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110921_153222_nlp_jpn_02_chap-02
+Directory created: C:\workspaces\ws_ubuntu_1\G20110921_153222_nlp_jpn_02_chap-02\STOR_G20110921_153222_nlp_jpn_02_chap-02
+Directory created: C:\workspaces\ws_ubuntu_1\G20110921_153222_nlp_jpn_02_chap-02\log
+Python files created[2011/09/21 15:32:23]
+[/Session log:2011/09/21 15:32:23]--------------------
+
+[Session log:2011/09/23 14:15:03]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110923_141503
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/23 14:15:19]--------------------
+[Session log:2011/09/23 14:15:48]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110923_141548
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20110923_141548_e_statistics_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20110923_141548_e_statistics_01\STOR_G20110923_141548_e_statistics_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20110923_141548_e_statistics_01\log
+Python files created[2011/09/23 14:15:48]
+[/Session log:2011/09/23 14:15:48]--------------------
+
+[Session log:2011/09/24 09:01:11]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110924_090111
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/24 09:01:14]--------------------
+[Session log:2011/09/26 10:07:30]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110926_100730
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/26 15:58:35]--------------------
+[Session log:2011/09/27 12:37:15]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110927_123715
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/27 12:37:18]--------------------
+[Session log:2011/09/28 12:23:11]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110928_122311
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/28 16:00:08]--------------------
+[Session log:2011/09/28 16:00:20]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110928_160020
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/28 16:23:56]--------------------
+[Session log:2011/09/29 06:12:28]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110929_061228
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/29 06:12:35]--------------------
+[Session log:2011/09/29 07:38:06]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110929_073806
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/29 07:38:12]--------------------
+[Session log:2011/09/30 08:21:37]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110930_082137
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/09/30 08:21:45]--------------------
+[Session log:2011/09/30 12:23:11]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20110930_122311
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20110930_122311_image_processing_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110930_122311_image_processing_1\STOR_G20110930_122311_image_processing_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20110930_122311_image_processing_1\log
+cpp files created[2011/09/30 12:23:12]
+[/Session log:2011/09/30 12:23:12]--------------------
+
+[Session log:2011/10/01 08:27:18]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111001_082718
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/01 08:27:31]--------------------
+[Session log:2011/10/01 14:14:43]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111001_141443
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/01 14:15:13]--------------------
+[Session log:2011/10/01 16:19:23]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111001_161923
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/01 16:27:24]--------------------
+[Session log:2011/10/02 19:25:49]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111002_192549
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111002_192549_shape_recognition__1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111002_192549_shape_recognition__1\STOR_G20111002_192549_shape_recognition__1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111002_192549_shape_recognition__1\log
+cpp files created[2011/10/02 19:25:51]
+[/Session log:2011/10/02 19:25:51]--------------------
+
+[Session log:2011/10/03 06:25:05]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111003_062505
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/03 07:00:38]--------------------
+[Session log:2011/10/03 15:47:43]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111003_154743
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/03 15:47:45]--------------------
+[Session log:2011/10/04 10:00:53]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111004_100053
+Project type: cpp
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/04 10:00:58]--------------------
+[Session log:2011/10/04 10:01:08]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111004_100108
+Project type: cpp
+Execution not chosen.
+[Session log:2011/10/04 10:01:27]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111004_100127
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111004_100127_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111004_100127_test\STOR_G20111004_100127_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111004_100127_test\log
+cpp files created[2011/10/04 10:01:31]
+[/Session log:2011/10/04 10:01:31]--------------------
+
+[Session log:2011/10/04 10:04:58]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111004_100458
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111004_100458_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111004_100458_test\STOR_G20111004_100458_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111004_100458_test\log
+cpp files created[2011/10/04 10:05:05]
+[/Session log:2011/10/04 10:05:05]--------------------
+
+[Session log:2011/10/05 09:29:04]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111005_092904
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111005_092904_shape_recog_2
+Directory created: C:\workspaces\ws_ubuntu_1\G20111005_092904_shape_recog_2\STOR_G20111005_092904_shape_recog_2
+Directory created: C:\workspaces\ws_ubuntu_1\G20111005_092904_shape_recog_2\log
+cpp files created[2011/10/05 09:29:06]
+[/Session log:2011/10/05 09:29:06]--------------------
+
+[Session log:2011/10/06 07:08:24]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111006_070824
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/06 07:12:48]--------------------
+[Session log:2011/10/06 07:13:14]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111006_071314
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111006_071314_create_pgm_files_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111006_071314_create_pgm_files_1\STOR_G20111006_071314_create_pgm_files_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111006_071314_create_pgm_files_1\log
+cpp files created[2011/10/06 07:13:15]
+[/Session log:2011/10/06 07:13:15]--------------------
+
+[Session log:2011/10/06 09:09:30]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111006_090930
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111006_090930_movie_image_files_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111006_090930_movie_image_files_1\STOR_G20111006_090930_movie_image_files_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111006_090930_movie_image_files_1\log
+cpp files created[2011/10/06 09:09:30]
+[/Session log:2011/10/06 09:09:30]--------------------
+
+[Session log:2011/10/06 15:18:07]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111006_151807
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/06 15:18:10]--------------------
+[Session log:2011/10/07 13:52:10]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111007_135210
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/07 13:52:21]--------------------
+[Session log:2011/10/07 14:32:10]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111007_143210
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/07 14:32:41]--------------------
+[Session log:2011/10/07 15:36:35]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111007_153635
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/07 15:36:37]--------------------
+[Session log:2011/10/07 15:56:37]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111007_155637
+Project type: python
+'Create a project' ==> 'n' chosen
+[/Session log:2011/10/07 15:56:44]--------------------
+[Session log:2011/10/07 15:57:09]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111007_155709
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20111007_155709_sketchup_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111007_155709_sketchup_01\STOR_G20111007_155709_sketchup_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111007_155709_sketchup_01\log
+Python files created[2011/10/07 15:57:09]
+[/Session log:2011/10/07 15:57:09]--------------------
+
+[Session log:2011/10/08 07:25:36]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111008_072536
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111008_072536_ip_chp4_filtering_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111008_072536_ip_chp4_filtering_1\STOR_G20111008_072536_ip_chp4_filtering_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111008_072536_ip_chp4_filtering_1\log
+cpp files created[2011/10/08 07:25:37]
+[/Session log:2011/10/08 07:25:37]--------------------
+
+[Session log:2011/10/10 07:07:16]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111010_070716
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111010_070716_bmp_converter_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111010_070716_bmp_converter_1\STOR_G20111010_070716_bmp_converter_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111010_070716_bmp_converter_1\log
+cpp files created[2011/10/10 07:07:17]
+[/Session log:2011/10/10 07:07:17]--------------------
+
+[Session log:2011/10/11 17:05:35]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111011_170535
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111011_170535_ppm_file_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111011_170535_ppm_file_1\STOR_G20111011_170535_ppm_file_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111011_170535_ppm_file_1\log
+cpp files created[2011/10/11 17:05:35]
+[/Session log:2011/10/11 17:05:35]--------------------
+
+[Session log:2011/10/12 16:13:32]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111012_161332
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111012_161332_chp_06_compression_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111012_161332_chp_06_compression_1\STOR_G20111012_161332_chp_06_compression_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111012_161332_chp_06_compression_1\log
+cpp files created[2011/10/12 16:13:32]
+[/Session log:2011/10/12 16:13:32]--------------------
+
+[Session log:2011/10/14 05:32:31]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111014_053231
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_053231_chp6_vq
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_053231_chp6_vq\STOR_G20111014_053231_chp6_vq
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_053231_chp6_vq\log
+cpp files created[2011/10/14 05:32:31]
+[/Session log:2011/10/14 05:32:31]--------------------
+
+[Session log:2011/10/14 05:38:20]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111014_053820
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_053820_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_053820_test\STOR_G20111014_053820_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_053820_test\log
+[Session log:2011/10/14 05:42:25]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111014_054225
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054225_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054225_test\STOR_G20111014_054225_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054225_test\log
+[Session log:2011/10/14 05:45:55]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111014_054555
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054555_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054555_test\STOR_G20111014_054555_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054555_test\log
+[Session log:2011/10/14 05:46:54]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111014_054654
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054654_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054654_test\STOR_G20111014_054654_test
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_054654_test\log
+[Session log:2011/10/14 09:48:25]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111014_094825
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_094825_chp3_binary_data
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_094825_chp3_binary_data\STOR_G20111014_094825_chp3_binary_data
+Directory created: C:\workspaces\ws_ubuntu_1\G20111014_094825_chp3_binary_data\log
+cpp files created[2011/10/14 09:48:26]
+[/Session log:2011/10/14 09:48:26]--------------------
+
+[Session log:2011/10/15 06:22:16]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111015_062216
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111015_062216_chap_13_color
+Directory created: C:\workspaces\ws_ubuntu_1\G20111015_062216_chap_13_color\STOR_G20111015_062216_chap_13_color
+Directory created: C:\workspaces\ws_ubuntu_1\G20111015_062216_chap_13_color\log
+cpp files created[2011/10/15 06:22:16]
+[/Session log:2011/10/15 06:22:16]--------------------
+
+[Session log:2011/10/19 05:49:29]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111019_054929
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111019_054929_generate_ppm_struct
+Directory created: C:\workspaces\ws_ubuntu_1\G20111019_054929_generate_ppm_struct\STOR_G20111019_054929_generate_ppm_struct
+Directory created: C:\workspaces\ws_ubuntu_1\G20111019_054929_generate_ppm_struct\log
+cpp files created[2011/10/19 05:49:30]
+[/Session log:2011/10/19 05:49:30]--------------------
+
+[Session log:2011/10/20 05:58:54]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111020_055854
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_055854_cplusplus_install_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_055854_cplusplus_install_1\STOR_G20111020_055854_cplusplus_install_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_055854_cplusplus_install_1\log
+cpp files created[2011/10/20 05:58:54]
+[/Session log:2011/10/20 05:58:54]--------------------
+
+[Session log:2011/10/20 07:33:47]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111020_073347
+Project type: java
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_073347_learn_Java_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_073347_learn_Java_01\STOR_G20111020_073347_learn_Java_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_073347_learn_Java_01\log
+java files created[2011/10/20 07:33:47]
+[/Session log:2011/10/20 07:33:47]--------------------
+
+[Session log:2011/10/20 19:35:30]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111020_193530
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_193530_C_eclipse_test_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_193530_C_eclipse_test_1\STOR_G20111020_193530_C_eclipse_test_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_193530_C_eclipse_test_1\log
+cpp files created[2011/10/20 19:35:31]
+[/Session log:2011/10/20 19:35:31]--------------------
+
+[Session log:2011/10/20 20:01:06]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111020_200106
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_200106_chap_9_3Dimension
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_200106_chap_9_3Dimension\STOR_G20111020_200106_chap_9_3Dimension
+Directory created: C:\workspaces\ws_ubuntu_1\G20111020_200106_chap_9_3Dimension\log
+cpp files created[2011/10/20 20:01:10]
+[/Session log:2011/10/20 20:01:10]--------------------
+
+[Session log:2011/10/21 12:27:35]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111021_122735
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_122735_seiha_ARA_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_122735_seiha_ARA_1\STOR_G20111021_122735_seiha_ARA_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_122735_seiha_ARA_1\log
+cpp files created[2011/10/21 12:27:35]
+[/Session log:2011/10/21 12:27:35]--------------------
+
+[Session log:2011/10/21 16:09:02]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111021_160902
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_160902_seiha_1-2-6_swap
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_160902_seiha_1-2-6_swap\STOR_G20111021_160902_seiha_1-2-6_swap
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_160902_seiha_1-2-6_swap\log
+cpp files created[2011/10/21 16:09:03]
+[/Session log:2011/10/21 16:09:03]--------------------
+
+[Session log:2011/10/21 16:43:38]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111021_164338
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_164338_seiha_1-2-2_touch_pointer
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_164338_seiha_1-2-2_touch_pointer\STOR_G20111021_164338_seiha_1-2-2_touch_pointer
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_164338_seiha_1-2-2_touch_pointer\log
+cpp files created[2011/10/21 16:43:38]
+[/Session log:2011/10/21 16:43:38]--------------------
+
+[Session log:2011/10/21 17:08:10]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111021_170810
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_170810_seiha_1-3-1_array
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_170810_seiha_1-3-1_array\STOR_G20111021_170810_seiha_1-3-1_array
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_170810_seiha_1-3-1_array\log
+cpp files created[2011/10/21 17:08:11]
+[/Session log:2011/10/21 17:08:11]--------------------
+
+[Session log:2011/10/21 17:35:32]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111021_173532
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_173532_seiha_4-2-2_ARA_ARA
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_173532_seiha_4-2-2_ARA_ARA\STOR_G20111021_173532_seiha_4-2-2_ARA_ARA
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_173532_seiha_4-2-2_ARA_ARA\log
+cpp files created[2011/10/21 17:35:32]
+[/Session log:2011/10/21 17:35:32]--------------------
+
+[Session log:2011/10/21 19:25:54]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111021_192554
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_192554_get_time_label
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_192554_get_time_label\STOR_G20111021_192554_get_time_label
+Directory created: C:\workspaces\ws_ubuntu_1\G20111021_192554_get_time_label\log
+cpp files created[2011/10/21 19:25:57]
+[/Session log:2011/10/21 19:25:57]--------------------
+
+[Session log:2011/10/23 22:02:01]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111023_220201
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111023_220201_learn_makefile_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111023_220201_learn_makefile_01\STOR_G20111023_220201_learn_makefile_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111023_220201_learn_makefile_01\log
+cpp files created[2011/10/23 22:02:01]
+[/Session log:2011/10/23 22:02:01]--------------------
+
+[Session log:2011/10/24 07:58:24]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111024_075824
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111024_075824_seiha_4-2-3_cat
+Directory created: C:\workspaces\ws_ubuntu_1\G20111024_075824_seiha_4-2-3_cat\STOR_G20111024_075824_seiha_4-2-3_cat
+Directory created: C:\workspaces\ws_ubuntu_1\G20111024_075824_seiha_4-2-3_cat\log
+cpp files created[2011/10/24 07:58:25]
+[/Session log:2011/10/24 07:58:25]--------------------
+
+[Session log:2011/10/24 08:25:56]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111024_082556
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111024_082556_seiha_4-2-4_return_pointer
+Directory created: C:\workspaces\ws_ubuntu_1\G20111024_082556_seiha_4-2-4_return_pointer\STOR_G20111024_082556_seiha_4-2-4_return_pointer
+Directory created: C:\workspaces\ws_ubuntu_1\G20111024_082556_seiha_4-2-4_return_pointer\log
+cpp files created[2011/10/24 08:25:57]
+[/Session log:2011/10/24 08:25:57]--------------------
+
+[Session log:2011/10/27 04:38:28]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111027_043828
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111027_043828_etc_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111027_043828_etc_1\STOR_G20111027_043828_etc_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111027_043828_etc_1\log
+cpp files created[2011/10/27 04:38:29]
+[/Session log:2011/10/27 04:38:29]--------------------
+
+[Session log:2011/10/28 10:04:05]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111028_100405
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111028_100405_audio_processing_intro_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111028_100405_audio_processing_intro_01\STOR_G20111028_100405_audio_processing_intro_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111028_100405_audio_processing_intro_01\log
+cpp files created[2011/10/28 10:04:06]
+[/Session log:2011/10/28 10:04:06]--------------------
+
+[Session log:2011/11/01 13:43:20]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111101_134320
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111101_134320_WinAPI_learn_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111101_134320_WinAPI_learn_1\STOR_G20111101_134320_WinAPI_learn_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111101_134320_WinAPI_learn_1\log
+cpp files created[2011/11/01 13:43:21]
+[/Session log:2011/11/01 13:43:21]--------------------
+
+[Session log:2011/11/02 13:42:43]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111102_134243
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111102_134243_audio_processing_intro_02
+Directory created: C:\workspaces\ws_ubuntu_1\G20111102_134243_audio_processing_intro_02\STOR_G20111102_134243_audio_processing_intro_02
+Directory created: C:\workspaces\ws_ubuntu_1\G20111102_134243_audio_processing_intro_02\log
+cpp files created[2011/11/02 13:42:44]
+[/Session log:2011/11/02 13:42:44]--------------------
+
+[Session log:2011/11/02 19:44:35]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111102_194435
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111102_194435_HTK_intro_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111102_194435_HTK_intro_1\STOR_G20111102_194435_HTK_intro_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111102_194435_HTK_intro_1\log
+cpp files created[2011/11/02 19:44:36]
+[/Session log:2011/11/02 19:44:36]--------------------
+
+[Session log:2011/11/04 08:37:01]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111104_083701
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111104_083701_C_learn_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111104_083701_C_learn_01\STOR_G20111104_083701_C_learn_01
+Directory created: C:\workspaces\ws_ubuntu_1\G20111104_083701_C_learn_01\log
+cpp files created[2011/11/04 08:37:02]
+[/Session log:2011/11/04 08:37:02]--------------------
+
+[Session log:2011/11/04 14:33:02]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111104_143302
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111104_143302_BMP_learn_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111104_143302_BMP_learn_1\STOR_G20111104_143302_BMP_learn_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111104_143302_BMP_learn_1\log
+cpp files created[2011/11/04 14:33:03]
+[/Session log:2011/11/04 14:33:03]--------------------
+
+[Session log:2011/11/05 06:11:44]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111105_061144
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111105_061144_learn_union_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111105_061144_learn_union_1\STOR_G20111105_061144_learn_union_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111105_061144_learn_union_1\log
+cpp files created[2011/11/05 06:11:45]
+[/Session log:2011/11/05 06:11:45]--------------------
+
+[Session log:2011/11/07 06:56:23]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111107_065623
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_065623_chap11_shape_char_recognition_2
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_065623_chap11_shape_char_recognition_2\STOR_G20111107_065623_chap11_shape_char_recognition_2
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_065623_chap11_shape_char_recognition_2\log
+cpp files created[2011/11/07 06:56:24]
+[/Session log:2011/11/07 06:56:24]--------------------
+
+[Session log:2011/11/07 14:18:12]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111107_141812
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_141812_receipt_paper_recognition_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_141812_receipt_paper_recognition_1\STOR_G20111107_141812_receipt_paper_recognition_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_141812_receipt_paper_recognition_1\log
+cpp files created[2011/11/07 14:18:12]
+[/Session log:2011/11/07 14:18:12]--------------------
+
+[Session log:2011/11/07 19:27:23]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111107_192723
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_192723_math_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_192723_math_1\STOR_G20111107_192723_math_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111107_192723_math_1\log
+cpp files created[2011/11/07 19:27:24]
+[/Session log:2011/11/07 19:27:24]--------------------
+
+[Session log:2011/11/08 13:49:58]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111108_134958
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20111108_134958_-pp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111108_134958_-pp\STOR_G20111108_134958_-pp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111108_134958_-pp\log
+Python files created[2011/11/08 13:49:59]
+[/Session log:2011/11/08 13:49:59]--------------------
+
+[Session log:2011/11/08 13:52:07]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111108_135207
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20111108_135207_pyplot_learn_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111108_135207_pyplot_learn_1\STOR_G20111108_135207_pyplot_learn_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111108_135207_pyplot_learn_1\log
+Python files created[2011/11/08 13:52:07]
+[/Session log:2011/11/08 13:52:07]--------------------
+
+[Session log:2011/11/12 05:53:59]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111112_055359
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111112_055359_CExam_class3
+Directory created: C:\workspaces\ws_ubuntu_1\G20111112_055359_CExam_class3\STOR_G20111112_055359_CExam_class3
+Directory created: C:\workspaces\ws_ubuntu_1\G20111112_055359_CExam_class3\log
+cpp files created[2011/11/12 05:54:00]
+[/Session log:2011/11/12 05:54:00]--------------------
+
+[Session log:2011/11/13 13:30:04]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111113_133004
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111113_133004_C_hexdump_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111113_133004_C_hexdump_1\STOR_G20111113_133004_C_hexdump_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111113_133004_C_hexdump_1\log
+cpp files created[2011/11/13 13:30:05]
+[/Session log:2011/11/13 13:30:05]--------------------
+
+[Session log:2011/11/15 19:55:01]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111115_195501
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111115_195501_C_numerical_analysis_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111115_195501_C_numerical_analysis_1\STOR_G20111115_195501_C_numerical_analysis_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111115_195501_C_numerical_analysis_1\log
+cpp files created[2011/11/15 19:55:02]
+[/Session log:2011/11/15 19:55:02]--------------------
+
+[Session log:2011/11/16 19:51:41]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111116_195141
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_195141_testc
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_195141_testc\STOR_G20111116_195141_testc
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_195141_testc\log
+cpp files created[2011/11/16 19:51:41]
+[/Session log:2011/11/16 19:51:41]--------------------
+
+[Session log:2011/11/16 19:56:54]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111116_195654
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_195654_test_c
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_195654_test_c\STOR_G20111116_195654_test_c
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_195654_test_c\log
+cpp files created[2011/11/16 19:56:55]
+[/Session log:2011/11/16 19:56:55]--------------------
+
+[Session log:2011/11/16 20:02:43]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111116_200243
+Project type: cpp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_200243_test_c
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_200243_test_c\STOR_G20111116_200243_test_c
+Directory created: C:\workspaces\ws_ubuntu_1\G20111116_200243_test_c\log
+cpp files created[2011/11/16 20:02:43]
+[/Session log:2011/11/16 20:02:43]--------------------
+
+[Session log:2011/11/17 05:46:33]--------------------
+[Session log:2011/11/17 05:46:50]--------------------
+[Session log:2011/11/17 05:47:43]--------------------
+directory=C:\Users\ä‚ï£Å@å™\Desktop
+time_label=20111117_054743
+Project type: python
+Execution not chosen.
+[Session log:2011/11/17 07:55:53]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111117_075553
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20111117_075553_MONEY_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111117_075553_MONEY_1\STOR_G20111117_075553_MONEY_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111117_075553_MONEY_1\log
+Python files created[2011/11/17 07:55:53]
+[/Session log:2011/11/17 07:55:53]--------------------
+
+[Session log:2011/11/17 10:02:33]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111117_100233
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20111117_100233_test_p
+Directory created: C:\workspaces\ws_ubuntu_1\G20111117_100233_test_p\STOR_G20111117_100233_test_p
+Directory created: C:\workspaces\ws_ubuntu_1\G20111117_100233_test_p\log
+Python files created[2011/11/17 10:02:33]
+[/Session log:2011/11/17 10:02:33]--------------------
+
+[Session log:2011/11/18 13:16:03]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111118_131603
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_131603_test_php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_131603_test_php\STOR_G20111118_131603_test_php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_131603_test_php\log
+[Session log:2011/11/18 13:22:20]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111118_132220
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_132220_test_php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_132220_test_php\STOR_G20111118_132220_test_php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_132220_test_php\log
+[Session log:2011/11/18 13:23:13]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111118_132313
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_132313_test_php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_132313_test_php\STOR_G20111118_132313_test_php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_132313_test_php\log
+'php' files created[2011/11/18 13:23:13]
+[/Session log:2011/11/18 13:23:13]--------------------
+
+[Session log:2011/11/18 13:34:01]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111118_133401
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133401_test-php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133401_test-php\STOR_G20111118_133401_test-php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133401_test-php\log
+'php' files created[2011/11/18 13:34:01]
+[/Session log:2011/11/18 13:34:01]--------------------
+
+[Session log:2011/11/18 13:36:06]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111118_133606
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133606_test-php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133606_test-php\STOR_G20111118_133606_test-php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133606_test-php\log
+'php' files created[2011/11/18 13:36:07]
+[/Session log:2011/11/18 13:36:07]--------------------
+
+[Session log:2011/11/18 13:37:43]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111118_133743
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133743_test-php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133743_test-php\STOR_G20111118_133743_test-php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_133743_test-php\log
+'php' files created[2011/11/18 13:37:43]
+[/Session log:2011/11/18 13:37:43]--------------------
+
+[Session log:2011/11/18 13:40:20]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111118_134020
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_134020_testphp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_134020_testphp\STOR_G20111118_134020_testphp
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_134020_testphp\log
+'php' files created[2011/11/18 13:40:21]
+[/Session log:2011/11/18 13:40:21]--------------------
+
+[Session log:2011/11/18 13:45:23]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111118_134523
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_134523_php_file_upload_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_134523_php_file_upload_1\STOR_G20111118_134523_php_file_upload_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111118_134523_php_file_upload_1\log
+'php' files created[2011/11/18 13:45:23]
+[/Session log:2011/11/18 13:45:23]--------------------
+
+[Session log:2011/11/22 19:48:43]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111122_194843
+Project type: php
+Directory created: C:\workspaces\ws_ubuntu_1\G20111122_194843_php_labdata_store_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111122_194843_php_labdata_store_1\STOR_G20111122_194843_php_labdata_store_1
+Directory created: C:\workspaces\ws_ubuntu_1\G20111122_194843_php_labdata_store_1\log
+'php' files created[2011/11/22 19:48:43]
+[/Session log:2011/11/22 19:48:43]--------------------
+
+[Session log:2011/12/08 08:23:35]--------------------
+directory=C:\workspaces\ws_ubuntu_1
+time_label=20111208_082335
+Project type: python
+Directory created: C:\workspaces\ws_ubuntu_1\G20111208_082335_python_editor
+Directory created: C:\workspaces\ws_ubuntu_1\G20111208_082335_python_editor\STOR_G20111208_082335_python_editor
+Directory created: C:\workspaces\ws_ubuntu_1\G20111208_082335_python_editor\log
+Python files created[2011/12/08 08:23:36]
+[/Session log:2011/12/08 08:23:36]--------------------
+

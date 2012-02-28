@@ -1,0 +1,44 @@
+[log 2011/08/25 10:40:45] ------------------------
+<job>: Logging
+File: lib.rb
+	add:func:get_fs_path
+[/log 2011/08/25 10:40:45] ------------------------
+
+[log 2011/08/25 10:44:43] ------------------------
+<job>: Versioning
+File: lib.rb
+	Version file: version~lib.rb=1.0
+	New version file: version~lib.rb=1.1
+[/log 2011/08/25 10:44:43] ------------------------
+
+[log 2011/08/25 10:45:31] ------------------------
+<job>: Logging
+File: lib.rb
+	add:func:get_url_path
+[/log 2011/08/25 10:45:31] ------------------------
+
+[log 2011/08/25 11:02:08] ------------------------
+<job>: Versioning
+File: lib.rb
+	Version file: version~lib.rb=1.1
+	New version file: version~lib.rb=1.2
+[/log 2011/08/25 11:02:08] ------------------------
+
+[log 2011/08/25 11:03:15] ------------------------
+<job>: Logging
+File: lib.rb
+	edit:ALL:module_introduced:name~LIB01
+[/log 2011/08/25 11:03:15] ------------------------
+
+[log 2011/08/25 11:03:59] ------------------------
+<job>: Logging
+File: lib.rb
+	test: just testing using double quotation
+[/log 2011/08/25 11:03:59] ------------------------
+
+[log 2011/08/25 11:04:54] ------------------------
+<job>: Logging
+File: lib.rb
+	test: use escape: \nreturn
+[/log 2011/08/25 11:04:54] ------------------------
+

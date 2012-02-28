@@ -1,0 +1,40 @@
+#!/bin/bash
+#file=v1u0
+#created=2011/06/16-09:35:39
+
+function abc(){
+  echo Usage:
+  echo -e "\t<First param>"
+    echo -e "\t\t. ==> root"
+  echo -e "\t<Second param>"
+    echo -e "\t\t. ==> whole directory"
+}
+
+if [ "$1" = "" ]; then
+  usr="root"
+
+elif [ "$1" = "." ]; then
+  usr="root"
+
+elif [ "$1" = "-h" ]; then
+  abc
+  exit 0
+else
+  usr="${1}"
+fi
+
+if [ "$2" = "" ]; then
+  stuff="/home/kenb/workspace/ws_ubuntu_1/G20110616_082722/"
+  opt="-r"
+
+elif [ "$2" = "." ]; then
+
+  stuff="/home/kenb/workspace/ws_ubuntu_1/G20110616_082722/"
+  opt="-r"
+else
+  stuff="${2}"
+fi
+
+command="scp -P 3843 ${opt} ${stuff} ${usr}@183.181.0.54:/var/www/cgi-bin/"
+echo "Executing... => ${command}"
+scp -P 3843 ${opt} ${stuff} ${usr}@183.181.0.54:/var/www/cgi-bin/

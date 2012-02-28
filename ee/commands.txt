@@ -1,0 +1,25 @@
+cd @path1@
+
+dir STOR_@path2@\version*
+
+cd /var/www/cgi-bin/@path2@
+
+C:\Microchip_8.50\"MPLAB IDE"\Core\MPLAB.exe
+
+[jar]============================
+util.py -vmain.@ext@
+util.py -v@path3@.@ext@
+util.py -L@path3@.@ext@ -T""
+
+
+[upload_g.py]======================
+upload_g.py
+main.@ext@
+
+[java]=================================
+javac Main.@ext@
+java Main
+
+[others]=================================
+sudo find /|grep ""
+python main.py

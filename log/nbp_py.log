@@ -1,0 +1,117 @@
+[log 2011/08/24 10:37:30] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.25
+	New version file: version~nbp.py=4.26
+[/log 2011/08/24 10:37:30] ------------------------
+
+[log 2011/08/24 10:37:56] ------------------------
+<job>: Logging
+File: nbp.py
+	add:func:create_ruby_files
+[/log 2011/08/24 10:37:56] ------------------------
+
+[log 2011/08/25 14:09:36] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.26
+	New version file: version~nbp.py=4.27
+[/log 2011/08/25 14:09:36] ------------------------
+
+[log 2011/08/25 14:10:19] ------------------------
+<job>: Logging
+File: nbp.py
+	add folder 'ee'
+[/log 2011/08/25 14:10:19] ------------------------
+
+[log 2011/09/01 12:49:19] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.27
+	New version file: version~nbp.py=4.28
+[/log 2011/09/01 12:49:19] ------------------------
+
+[log 2011/09/01 12:49:50] ------------------------
+<job>: Logging
+File: nbp.py
+	edit:create_dirs_ee: pic10 or pic12
+[/log 2011/09/01 12:49:50] ------------------------
+
+[log 2011/09/07 13:38:57] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.28
+	New version file: version~nbp.py=4.29
+[/log 2011/09/07 13:38:57] ------------------------
+
+[log 2011/09/08 14:54:14] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.29
+	New version file: version~nbp.py=4.30
+[/log 2011/09/08 14:54:14] ------------------------
+
+[log 2011/09/08 14:54:45] ------------------------
+<job>: Logging
+File: nbp.py
+	GUInize
+[/log 2011/09/08 14:54:45] ------------------------
+
+[log 2011/09/12 10:03:39] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.30
+	New version file: version~nbp.py=4.31
+[/log 2011/09/12 10:03:39] ------------------------
+
+[log 2011/09/12 10:04:13] ------------------------
+<job>: Logging
+File: nbp.py
+	add: option: '-y'
+[/log 2011/09/12 10:04:13] ------------------------
+
+[log 2011/11/16 19:24:33] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.31
+	New version file: version~nbp.py=4.32
+[/log 2011/11/16 19:24:33] ------------------------
+
+[log 2011/11/16 19:25:17] ------------------------
+<job>: Logging
+File: nbp.py
+	[v=4.31] clean up; cpp>lib.c --> add file version
+[/log 2011/11/16 19:25:17] ------------------------
+
+[log 2011/11/16 20:04:27] ------------------------
+<job>: Logging
+File: nbp.py
+	[v=4.32] new: def _get_libc_version_file(directory)
+[/log 2011/11/16 20:04:27] ------------------------
+
+[log 2011/11/16 20:04:31] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.32
+	New version file: version~nbp.py=4.33
+[/log 2011/11/16 20:04:31] ------------------------
+
+[log 2011/11/18 12:38:18] ------------------------
+<job>: Versioning
+File: nbp.py
+	Version file: version~nbp.py=4.33
+	New version file: version~nbp.py=4.34
+[/log 2011/11/18 12:38:18] ------------------------
+
+[log 2011/11/18 12:38:19] ------------------------
+<job>: Logging
+File: nbp.py
+	[v=4.33] clean up
+[/log 2011/11/18 12:38:19] ------------------------
+
+[log 2011/11/18 12:38:45] ------------------------
+<job>: Logging
+File: nbp.py
+	[v=4.34] new: dir 'php'
+[/log 2011/11/18 12:38:45] ------------------------
+

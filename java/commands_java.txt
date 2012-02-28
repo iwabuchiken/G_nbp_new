@@ -1,0 +1,30 @@
+cd C:\workspaces\ws_ubuntu_1\G_Java_Programmer\TRY_1\Chp_12\ex_3_work
+
+dir STOR_G20120130_110230_J_learn_01\version*
+
+cd /var/www/cgi-bin/G20120130_110230_J_learn_01
+
+C:\workspaces\ws_ubuntu_1\susie347b\Susie.exe
+C:\windows\system32\mspaint.exe
+
+http://183.181.0.54/cgi-bin/G20120130_110230_J_learn_01/main.java
+
+[ant]============================
+ant -D"srcfile=Sub1_PROGRAM.java"
+ant -D"srcfile=Sub2_StackTraceElement.java"
+
+[jar]============================
+util.py -vMain.java
+util.py -LMain.java -T""
+
+[upload_g.py]======================
+upload_g.py
+main.java
+
+[java]=================================
+javac Main.java
+java Main
+
+[others]=================================
+sudo find /|grep ""
+python main.py

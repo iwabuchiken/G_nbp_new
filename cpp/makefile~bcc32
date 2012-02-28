@@ -1,0 +1,15 @@
+MAINFILE = sub1_GuiConsole_toFile
+CC = bcc32
+SRC = c
+OBJ = obj
+EXE = exe
+
+$(MAINFILE).$(EXE): $(MAINFILE).$(OBJ) lib.$(OBJ)
+#sub1_GuiConsole_toFile.exe: sub1_GuiConsole_toFile.obj lib.obj
+	$(CC) -tW -e$(MAINFILE).$(EXE) $(MAINFILE).$(OBJ) lib.$(OBJ)
+
+$(MAINFILE).$(OBJ): $(MAINFILE).$(SRC)
+	$(CC) -c -tW $(MAINFILE).$(SRC)
+
+lib.$(OBJ): lib.$(SRC)
+	$(CC) -c -tW lib.$(SRC)

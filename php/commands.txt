@@ -1,0 +1,30 @@
+<created at: @created_at@>
+[main] =========================
+cd @path1@
+pushd @path1@
+
+dir STOR_@path2@\version*
+
+cd /var/www/cgi-bin/@path2@
+
+C:\workspaces\ws_ubuntu_1\susie347b\Susie.exe
+C:\windows\system32\mspaint.exe
+
+http://183.181.0.54/cgi-bin/@path2@/main.@ext@
+
+python configure.py
+mmake & main.exe
+
+[jar]============================
+util.py -vmain.@ext@
+util.py -vmain.c,Makefile -J
+util.py -vmain.@ext@ & util.@ext@ -Lmain.@ext@ -T"[v=]"
+
+[upload_g.py]======================
+upload_g.py
+main.@ext@
+Makefile
+
+[others]=================================
+sudo find /|grep ""
+python main.py

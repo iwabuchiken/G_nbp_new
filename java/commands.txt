@@ -1,0 +1,26 @@
+cd @path1@
+
+dir STOR_@path2@\version*
+
+cd /var/www/cgi-bin/@path2@
+
+C:\workspaces\ws_ubuntu_1\susie347b\Susie.exe
+C:\windows\system32\mspaint.exe
+
+http://183.181.0.54/cgi-bin/@path2@/main.@ext@
+
+[jar]============================
+util.py -vMain.@ext@
+util.py -LMain.@ext@ -T""
+
+[upload_g.py]======================
+upload_g.py
+main.@ext@
+
+[java]=================================
+javac Main.@ext@
+java Main
+
+[others]=================================
+sudo find /|grep ""
+python main.py

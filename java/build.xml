@@ -1,0 +1,36 @@
+<!-- /************************************`
+ * <Basic>							*
+ *	1. File: sub2_ant_first.java				*
+ *	2. Author: Iwabuchi Ken				*
+ *	3. Date: 20120205_134457
+ * <Aim>
+ * 	1.
+ * <Usage>
+ *	1. Run the program
+ * <Source>
+ * 	1. "compilerarg" => http://ant.apache.org/manual/Tasks/javac.html
+ *									*
+ ************************************/
+ -->
+<project name="sample" default="compile" basedir=".">
+	<property name="srcfile" value="sub2_TreeSet.java" ></property>
+	<property name="opt" value="-Xlint:unchecked"></property>
+	<target name="compile">
+	<!--
+		1. The attribute "includeAntRuntime" needed,
+			with the value set to "true"
+	-->
+	  <javac srcdir="."
+	         destdir="."
+
+	  		 includeAntRuntime="true"
+
+	         includes="${srcfile}" >
+	         <!-- <compilearg value="-Xlint:unchecked" /> -->
+	         <compilerarg value="${opt}" />
+
+       </javac>
+
+	</target>
+
+</project>
