@@ -30,6 +30,7 @@ REM ************************************
 set GIT_HOME_BIN=C:\WORKS\PROGRAMS\Git\bin
 set NBP_HOME=C:\WORKS\WORKSPACES\G_nbp_new
 set PYTHON_HOME=C:\WORKS\PROGRAMS\Python266
+set PYTHONPATH=C:\WORKS\PROGRAMS\Python266
 set JAVA_HOME=C:\WORKS\PROGRAMS\Java
 set JAVA_HOME_BIN=%JAVA_HOME%\jdk1.6.0_25\bin
 set MINGW_HOME_BIN=C:\WORKS\PROGRAMS\MinGW\bin;
@@ -56,6 +57,9 @@ set path=%path%;%JAVA_HOME_BIN%
 
 echo set path=%%path%%;%MINGW_HOME_BIN%
 set path=%path%;%MINGW_HOME_BIN%
+
+echo set path=%%path%%;%PYTHONPATH%
+set path=%path%;%PYTHONPATH%
 
 rem set path=%path%;%NBP_HOME%
 
