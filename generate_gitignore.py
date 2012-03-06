@@ -161,21 +161,29 @@ def get_gitignore_path(root_path, target_path):
 
 def do_listing\
 	(file, ROOT_PATH, parent_path, target_dirs):
+	### variables	###
+	new_dirs	= list()		## dir list
+	item			= None		## iterator: target_dirs
+	x				= None		## iterator: new_dirs
+	path			= ""			## str// ignore path
+	new_path	= ""			## str// ignore paths for subdirs
+	
+	### processes	###
 	for item in target_dirs:
 		path	= get_gitignore_path(parent_path, item)
 		#debug
 		print path
 		
 		### new target_dirs	###
-		#new_dirs	= [x for x in os.listdir(item)]
 		new_dirs	= [x for x in os.listdir(item)]
 		
-		#debug
-		#print new_dirs, ": ", os.path.abspath(new_dirs[0])
-		print new_dirs
-		
-		
 		### recurse listing	###
+		for x in new_dirs:
+			### construct a new path	###
+			new_path	= "\\".join((parent_path, item, x))
+			#debug
+			print "\tnew_path: ", new_path
+		
 		#do_listing(file, root_path, target_dirs)
 	
 #//do_listing(file, ROOT_PATH, parent_path, target_dirs)
