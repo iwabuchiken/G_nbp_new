@@ -71,7 +71,7 @@ def second():
 	
 #//second()
 
-def initial():
+def open_file():
 	##############################
 	# Processes
 	#    1. Open the file
@@ -84,6 +84,7 @@ def initial():
 	
 	# variables			#####
 	file_name		= ".gitignore"					# file name
+
 	# if the file exists, open with 'a'
 	# if not, with 'w'
 	if file_name in os.listdir(os.getcwd()):
@@ -91,14 +92,9 @@ def initial():
 	else:
 		f_out	= open(file_name, "w")			# not exist
 	
-#	if (os.path.isfile(file(file_name))):
-#		file	= open(file_name, "a")
-#	else:
-#		file	= open(file_name, "w")
 	ignore_set	= [".tds", ".exe", ]
 	
 	# write the first lines	#
-	#write_to_file(f_out, ignore_set)
 	for item in ignore_set:
 		f_out.write("*%s\n" % item)
 	# get the list			#####
@@ -122,7 +118,7 @@ def initial():
 	f_out.close()
 
 	
-#//initial()
+#//open_file()
 
 def get_gitignore_path(root_path, target_path):
 	### variables ###
@@ -135,8 +131,7 @@ def get_gitignore_path(root_path, target_path):
 	# reverse
 	p1.reverse()
 	p2.reverse()
-	print p1
-	print p2
+
 	# compare and generate
 	for i in range(len(p1)):
 		# if the length of the target path is 1,
@@ -157,26 +152,55 @@ def get_gitignore_path(root_path, target_path):
 	#//for
 	
 	# show
-	print "p3=", p3
 	p3.reverse()
-	print "p3=", p3
-	print "p3=", "/".join(p3)
 
 	# return
-	return p3
+	return "/".join(p3)
+
 #//get_gitignore_path()
+
+def do_listing\
+	(file, ROOT_PATH, parent_path, target_dirs):
+	for item in target_dirs:
+		path	= get_gitignore_path(parent_path, item)
+		#debug
+		print path
+		
+		### new target_dirs	###
+		#new_dirs	= [x for x in os.listdir(item)]
+		new_dirs	= [x for x in os.listdir(item)]
+		
+		#debug
+		#print new_dirs, ": ", os.path.abspath(new_dirs[0])
+		print new_dirs
+		
+		
+		### recurse listing	###
+		#do_listing(file, root_path, target_dirs)
+	
+#//do_listing(file, ROOT_PATH, parent_path, target_dirs)
+
 if __name__ == '__main__':
 	### variables ###
 	ROOT_PATH	= os.getcwd()		# root path
-	dirs					= os.listdir(ROOT_PATH)
-	path1				= ""		# path
-	### initial list
-	initial()
+	target_dirs		= [item for item in os.listdir(ROOT_PATH) if os.path.isdir(item)]
+	path1	= ""		# path
 	
-	for item in dirs:
-		print "item=", item
-		if (os.path.isdir(item)):
-			path1		= get_gitignore_path(ROOT_PATH, item)
-			print "path1=", path1
+	# debug
+#	print target_dirs
+#	sys.exit(0)
+	
+	### setup
+	file		= open_file()
+	
+	### processes
+	do_listing(file, ROOT_PATH, ROOT_PATH, target_dirs)
+	
+	
+#	for item in dirs:
+#		print "item=", item
+#		if (os.path.isdir(item)):
+#			path1		= get_gitignore_path(ROOT_PATH, item)
+#			print "path1=", path1
 			
 	#second()
