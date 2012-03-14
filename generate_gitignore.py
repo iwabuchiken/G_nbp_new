@@ -168,6 +168,9 @@ def do_listing\
 	path			= ""			## str// ignore path
 	new_path	= ""			## str// ignore paths for subdirs
 	
+	#debug
+	print "target_dirs=", target_dirs
+	
 	### processes	###
 	for item in target_dirs:
 		path	= get_gitignore_path(parent_path, item)
@@ -177,13 +180,21 @@ def do_listing\
 		### new target_dirs	###
 		new_dirs	= [x for x in os.listdir(item)]
 		
+		#debug
+		print "new_dirs", "=", new_dirs
+		
 		### recurse listing	###
 		for x in new_dirs:
 			### construct a new path	###
-			new_path	= "\\".join((parent_path, item, x))
+			#new_path	= "\\".join((parent_path, item, x))
+			new_path	= "\\".join((parent_path, item))
+			
 			#debug
 			print "\tnew_path: ", new_path
 		
+			### recurse listing	###
+			#do_listing(file, ROOT_PATH, target_dirs)
+			
 		#do_listing(file, root_path, target_dirs)
 	
 #//do_listing(file, ROOT_PATH, parent_path, target_dirs)
