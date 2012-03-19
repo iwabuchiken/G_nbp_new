@@ -1,5 +1,7 @@
-*.pyc 
 *.obj
 *.tds
 *.exe
 *.class
+*.mk
+*.pyc
+*.pyd

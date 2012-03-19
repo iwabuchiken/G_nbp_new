@@ -104,11 +104,16 @@ def show_usage():
         gengit.py -h
             => show usage
     <Options>
+        -a <pattern1> <pattern2> ...
+            => add the patterns to the ".gitignore" file
+            <Example> gitgen.py -a class tds exe
         -d  => Only dirs will be ignored
         -e abc def
             => The files "abc" and "def" will not be
                 in the ".gitignore" file
         -f  => Only files will be ignored
+        -h  => Show help
+        -n  => Name the ".gitignore" file
         -z  => Only display the list to be written.
                 File will not be written.
     """
@@ -117,6 +122,55 @@ def show_usage():
 
 #//do_job()
 
+"""
+    start_job()
+
+"""
+
+def option_a():
+    if "-a" in sys.argv:    # add new patterns
+        if not ".gitignore" in os.listdir(os.getcwd()):     # ".gitignore" exists?
+            print "\".gitignore\" file doesn't exist."
+            ans = raw_input("Create?(y/n)")
+            if ans == "y":
+                f = open(".gitignore", "w"); f.close()
+            else:
+                print "Program ends."
+                sys.exit(0)
+            #//if ans == "y"
+#                sys.exit(0)
+        #//if not ".gitignore" in os.listdir(os.getcwd())
+        """ patterns designated?
+            if yes,
+            1. open the file
+            2. write new patterns
+            3. close the file
+        """
+        index = sys.argv.index("-a")
+        if len(sys.argv) > index + 1:
+#                #debug
+#                print "[DEBUG:%d] " % inspect.currentframe().f_lineno
+#                print sys.argv[(index + 1):]
+#                sys.exit(0)
+            f = open(".gitignore", "a")     # open the file
+            for item in sys.argv[(index + 1):]:
+                f.write("*.%s" % item)
+                f.write("\n")
+            """ report """
+            print "New patterns written: %s" % ["*." + x for x in sys.argv[(index + 1):]]
+        else:
+            #debug
+            print "[DEBUG:%d] " % inspect.currentframe().f_lineno
+            print
+            print "Option \"-a\" given. Patterns not given."
+            sys.exit(0)
+
+        """ program ends """
+        sys.exit(0)
+        #//if "-a" in sys.argv
+
+#//option_a()
+
 def start_job():
     """ vars """
     exempt_list     = list()    # items to be exempted
@@ -124,9 +178,50 @@ def start_job():
     ignore_file_name    = ".gitignore"
 
     """ handle options """
-#    print sys.argv
-#    sys.exit(0)
     if len(sys.argv) > 1:
+        if "-a" in sys.argv:    # add new patterns
+            option_a()
+#        if "-a" in sys.argv:    # add new patterns
+#            if not ".gitignore" in os.listdir(os.getcwd()):     # ".gitignore" exists?
+#                print "\".gitignore\" file doesn't exist."
+#                ans = raw_input("Create?(y/n)")
+#                if ans == "y":
+#                    f = open(".gitignore", "w"); f.close()
+#                else:
+#                    print "Program ends."
+#                    sys.exit(0)
+#                #//if ans == "y"
+##                sys.exit(0)
+#            #//if not ".gitignore" in os.listdir(os.getcwd())
+#            """ patterns designated?
+#                if yes,
+#                1. open the file
+#                2. write new patterns
+#                3. close the file
+#            """
+#            index = sys.argv.index("-a")
+#            if len(sys.argv) > index + 1:
+##                #debug
+##                print "[DEBUG:%d] " % inspect.currentframe().f_lineno
+##                print sys.argv[(index + 1):]
+##                sys.exit(0)
+#                f = open(".gitignore", "a")     # open the file
+#                for item in sys.argv[(index + 1):]:
+#                    f.write("*.%s" % item)
+#                    f.write("\n")
+#                """ report """
+#                print "New patterns written: %s" % ["*." + x for x in sys.argv[(index + 1):]]
+#            else:
+#                #debug
+#                print "[DEBUG:%d] " % inspect.currentframe().f_lineno
+#                print
+#                print "Option \"-a\" given. Patterns not given."
+#                sys.exit(0)
+#
+#            """ program ends """
+#            sys.exit(0)
+#        #//if "-a" in sys.argv
+
         if "-n" in sys.argv:
             index = sys.argv.index("-n")
             if len(sys.argv) > index + 1:
@@ -134,14 +229,13 @@ def start_job():
             else:
                 print "We got \"-n\" option, but no file name designated."
                 sys.exit(0)
-
         #//if "-n" in sys.argv
+
         if sys.argv[1] == "-h":     # show usage
             show_usage()
             sys.exit(0)
         elif sys.argv[1] == "-e":     # register exempt files
             exempt_list = sys.argv[2:]
-        #//if sys.argv[1] == "-e"
         elif sys.argv[1] == "-d":     # targets are dirs only
             target_list = [x for x in os.listdir(os.getcwd())
                         if os.path.isdir(x)]
@@ -152,8 +246,8 @@ def start_job():
             pass
         else:
             pass
-        #//if sys.argv[1] == "-d"
-    #//if len(sys.argv) > 1 and sys.argv[1] == "-h"
+        #//if sys.argv[1] == "-h"
+    #//if len(sys.argv) > 1
 
     """ do job """
     do_job(target_list, exempt_list, ignore_file_name)
@@ -161,43 +255,4 @@ def start_job():
 #//start_job()
 
 if __name__ == '__main__':
-#    #debug
-#    if "-n" in sys.argv:
-#        index = sys.argv.index("-n")
-#        if len(sys.argv) > index + 1:
-#            print index, " : ", sys.argv[index + 1]
-#        else:
-#            print "We got \"-n\" option, but no file name designated."
-#    #//if "-n" in sys.argv
-#    sys.exit(0)
-
-#    print sys.argv[1]
-
     start_job()
-#    """ vars """
-#    exempt_list     = list()    # items to be exempted
-#    target_list     = list()    # items to be gitignore-d
-#
-#    """ handle options """
-##    print sys.argv
-##    sys.exit(0)
-#    if len(sys.argv) > 1:
-#        if sys.argv[1] == "-h":     # show usage
-#            show_usage()
-#            sys.exit(0)
-#        elif sys.argv[1] == "-e":     # register exempt files
-#            exempt_list = sys.argv[2:]
-#        #//if sys.argv[1] == "-e"
-#        elif sys.argv[1] == "-d":     # targets are dirs only
-#            target_list = [x for x in os.listdir(os.getcwd())
-#                        if os.path.isdir(x)]
-#        elif sys.argv[1] == "-f":     # targets are files only
-#            target_list = [x for x in os.listdir(os.getcwd())
-#                        if os.path.isfile(x)]
-#        else:
-#            pass
-#        #//if sys.argv[1] == "-d"
-#    #//if len(sys.argv) > 1 and sys.argv[1] == "-h"
-#
-#    """ do job """
-#    do_job(target_list, exempt_list)
