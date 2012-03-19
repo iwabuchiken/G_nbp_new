@@ -32,16 +32,18 @@ def get_java_path():
         java_path   = ary2[0]
 
         #debug
-        print "[LINE:%d]" % inspect.currentframe().f_lineno
-        print "java_path: ", java_path
+        print "[%s:%d]" % (os.path.basename(__file__), 
+                                        inspect.currentframe().f_lineno),
+        print "java_path=", java_path
 
     elif len(ary1) == 1:    # class file is in the sub dir
         java_path   = ".".join((ary1[0], ary2[0]))
 #        java_path   = ".".join((ary1, ary2[0]))
 
         #debug
-        print "[LINE:%d]" % inspect.currentframe().f_lineno
-        print "java_path: ", java_path
+        print "[%s:%d]" % (os.path.basename(__file__), 
+                                        inspect.currentframe().f_lineno),
+        print "java_path=", java_path
 
     elif len(ary1) == 2:     # class file is in the 2-or-more-order-below sub dir
         
@@ -49,28 +51,32 @@ def get_java_path():
 #        java_path   = ".".join((ary1[:-2], ary2[0]))
         
         #debug
-        print "[LINE:%d]" % inspect.currentframe().f_lineno
-        print "java_path: ", java_path
+        print "[%s:%d]" % (os.path.basename(__file__), 
+                                        inspect.currentframe().f_lineno),
+        print "java_path=", java_path
 
     elif len(ary1) > 2:     # class file is in the 2-or-more-order-below sub dir
 #        tmp = ".".join(ary1[:-2])
         tmp = ".".join(ary1[:-1])
-        print "ary1[:-2]=", ary1[:-2]
-        print "ary1[:-1]=", ary1[:-1]
-        print "ary1[-1]=", ary1[-1]
-        print "ary1=", ary1
-        print "tmp=", tmp
+#        print "ary1[:-2]=", ary1[:-2]
+#        print "ary1[:-1]=", ary1[:-1]
+#        print "ary1[-1]=", ary1[-1]
+#        print "ary1=", ary1
+#        print "tmp=", tmp
         java_path   = ".".join((tmp, ary2[0]))
 #        java_path   = ".".join((ary1[:-2], ary2[0]))
 
         #debug
-        print "[LINE:%d]" % inspect.currentframe().f_lineno
-        print "java_path: ", java_path
+        print "[%s:%d]" % (os.path.basename(__file__), 
+                                        inspect.currentframe().f_lineno),
+        print "java_path=", java_path
     else:
+        print "[%s:%d]" % (os.path.basename(__file__), 
+                                        inspect.currentframe().f_lineno),
         print "Sorry. The given path is not legible: %s" \
                 % sys.argv[1]
-        print "ary1=%s(len=%d)" % (ary1, len(ary1))
-        print "ary2=%s(len=%d)" % (ary2, len(ary2))
+#        print "ary1=%s(len=%d)" % (ary1, len(ary1))
+#        print "ary2=%s(len=%d)" % (ary2, len(ary2))
         
         sys.exit(1)
     #//if len(ary1) == 1
@@ -90,6 +96,8 @@ def do_java():
     """ build a command line """
     cmd_line = "%s %s" % ("java", java_path)
     #debug
+    print "[%s:%d]" % (os.path.basename(__file__), 
+                                        inspect.currentframe().f_lineno),
     print "cmd_line=", cmd_line
 
     """ execute java """
@@ -101,6 +109,10 @@ if __name__ == '__main__':
     #debug
 #    for item in sys.argv:
 #        print item
+#    sys.exit(0)
+    
+    #debug
+#    print "__file__=", __file__
 #    sys.exit(0)
     
     do_java()
