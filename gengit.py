@@ -186,17 +186,27 @@ def option_n():
     return ignore_file_name
 #//option_n()
 
-def option_b():
+#def option_b():
+#def option_b(ignore_file=".gitignore"):
+def option_b(ignore_file=".gitignore", flags={}):
     """ vars """
     ignore_list     = \
             ["tds", "obj", "exe", "class", "pyc", "pyd", "etc", "zip"]
-    ignore_file     = ".gitignore"
+#    ignore_file     = ".gitignore"
 
-    """ write to file """
-    f = open(ignore_file, "w")
-    for item in ignore_list:
-        f.write("*.%s" % item)
-        f.write("\n")
+    if flags["display-only"] == 1:
+        for item in ignore_list:
+            print "*.%s" % item
+    else:
+        """ write to file """
+        f = open(ignore_file, "w")
+        for item in ignore_list:
+            f.write("*.%s" % item)
+            f.write("\n")
+        """ ignore the .git dir """
+        f.write(".git\n")
+        f.write(".git/*\n")
+    #//if flags["add-asterisk"] == 1
 
     """ report """
     print "File written: %s" % ignore_file
@@ -212,11 +222,16 @@ def start_job():
     ignore_file_name    = ".gitignore"
     flags = dict()
     flags["add-asterisk"]    = 1
+    flags["display-only"]    = 0
 
     """ handle options """
     if len(sys.argv) > 1:
+        if "-z" in sys.argv:    # flags
+            flags["display-only"]    = 1
         if "-a" in sys.argv:    # add new patterns
             option_a()
+        if "-n" in sys.argv:
+            ignore_file_name = option_n()
 
 #        if "-b" "-basic" in sys.argv or "-basic" in sys.argv:    # add new patterns
         if "-b" in sys.argv or "-basic" in sys.argv:    # add new patterns
@@ -225,10 +240,12 @@ def start_job():
 #            print "sys.argv=", sys.argv
 #            sys.exit(0)
             
-            option_b()
+#            option_b()
+#            option_b(ignore_file_name)
+            option_b(ignore_file_name, flags)
 
-        if "-n" in sys.argv:
-            ignore_file_name = option_n()
+#        if "-n" in sys.argv:
+#            ignore_file_name = option_n()
 
         if sys.argv[1] == "-h":     # show usage
             print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
