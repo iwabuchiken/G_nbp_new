@@ -235,10 +235,11 @@ def start_job():
             show_usage()
             sys.exit(0)
         else:
-            #debug
-            print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-            print "option \"-h\" is not given"
-            sys.exit(0)
+            pass
+#            #debug
+#            print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+#            print "option \"-h\" is not given"
+#            sys.exit(0)
 #        #debug
 #        print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
 #        sys.exit(0)
@@ -268,7 +269,7 @@ def start_job():
 
     """ do job """
 #    do_job(target_list, exempt_list, ignore_file_name)
-#    do_job(target_list, exempt_list, ignore_file_name, flags)
+    do_job(target_list, exempt_list, ignore_file_name, flags)
 
 #//start_job()
 
