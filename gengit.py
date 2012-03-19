@@ -218,7 +218,8 @@ def start_job():
         if "-a" in sys.argv:    # add new patterns
             option_a()
 
-        if "-b" "-basic" in sys.argv or "-basic" in sys.argv:    # add new patterns
+#        if "-b" "-basic" in sys.argv or "-basic" in sys.argv:    # add new patterns
+        if "-b" in sys.argv or "-basic" in sys.argv:    # add new patterns
 #            #debug
 #            print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
 #            print "sys.argv=", sys.argv
@@ -234,6 +235,7 @@ def start_job():
             show_usage()
             sys.exit(0)
         else:
+            #debug
             print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
             print "option \"-h\" is not given"
             sys.exit(0)
