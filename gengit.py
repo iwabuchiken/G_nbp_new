@@ -88,6 +88,7 @@ def do_job \
         """ message """
         print "File written: %s" % fname
     #//if not "-z" in sys.argv
+#//def do_job
 
 def show_usage():
     print """<<Usage>>
@@ -158,11 +159,12 @@ def option_a():
             """ report """
             print "New patterns written: %s" % ["*." + x for x in sys.argv[(index + 1):]]
         else:
-            #debug
-            print "[DEBUG:%d] " % inspect.currentframe().f_lineno
-            print
-            print "Option \"-a\" given. Patterns not given."
-            sys.exit(0)
+            pass
+#            #debug
+#            print "[DEBUG:%d] " % inspect.currentframe().f_lineno
+#            print
+#            print "Option \"-a\" given. Patterns not given."
+#            sys.exit(0)
 
         """ program ends """
         sys.exit(0)
@@ -216,15 +218,28 @@ def start_job():
         if "-a" in sys.argv:    # add new patterns
             option_a()
 
-        if "-b" or "-basic" in sys.argv:    # add new patterns
+        if "-b" "-basic" in sys.argv or "-basic" in sys.argv:    # add new patterns
+#            #debug
+#            print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+#            print "sys.argv=", sys.argv
+#            sys.exit(0)
+            
             option_b()
 
         if "-n" in sys.argv:
             ignore_file_name = option_n()
 
         if sys.argv[1] == "-h":     # show usage
+            print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
             show_usage()
             sys.exit(0)
+        else:
+            print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+            print "option \"-h\" is not given"
+            sys.exit(0)
+#        #debug
+#        print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+#        sys.exit(0)
 
         if "-e" in sys.argv:     # register exempt files
             exempt_list = sys.argv[2:]
@@ -242,13 +257,28 @@ def start_job():
             option_n()
     else:
         pass
+#        #debug
+#        print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+#        sys.exit(0)
+
+        pass
     #//if len(sys.argv) > 1
 
     """ do job """
 #    do_job(target_list, exempt_list, ignore_file_name)
-    do_job(target_list, exempt_list, ignore_file_name, flags)
+#    do_job(target_list, exempt_list, ignore_file_name, flags)
 
 #//start_job()
 
 if __name__ == '__main__':
+#    #debug
+#    print "\n[DEBUG:%d]" % inspect.currentframe().f_lineno;
+#    print sys.argv
+#    if len(sys.argv) > 1:
+#        print "sys.argv[1]=", sys.argv[1]
+#        print "if sys.argv[1] == \"-h\"=", (sys.argv[1] == "-h")
+#    else:
+#        print "len(sys.argv)=", len(sys.argv)
+#    sys.exit(0)
+
     start_job()
