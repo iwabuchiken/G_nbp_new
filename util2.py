@@ -254,18 +254,86 @@ def copy_files(args):
             
 #//def copy_files(options):
 
-if __name__ == '__main__':
-      # 00 =============================
-      if len(sys.argv) < 2: print USAGE; sys.exit(0)
+def create_header_file():
+    """ vars """
+    content = ""    # content of the source file
+    line    = ""    # line from the input file
+    if len(sys.argv) > 2:
+        src_file_name = sys.argv[2] # source file name
+    else:
+        print "Usage: util2.py hd sub1.c"
+        sys.exit(0)
+    #//if len(sys.argv) 2
+    src_file_name = sys.argv[2]
+    out_file_name = "%s_test.h" % \
+            os.path.splitext(src_file_name)[0]
 
-      """ Create subversion folders """
-      if sys.argv[1] == "sub":
+    """ Open the output file """
+    fin = file(src_file_name, "r")
+#    fout = file(out_file_name, "w+")
+    fout = file(out_file_name, "r+")
+    print "Files opened"
+
+    """ set the reg expression """
+    regex = re.compile("^((\w|\s)*\((\w|\s)*\))$")
+
+    """ read, search, write """
+    line = fin.readline()
+    while line:
+        result = regex.search(line)
+#        if regex.search(line)
+        if result:
+#            line[-1] = ";"
+#            line[-1] = ';'
+#            print line[-1]
+#            print line[-2]
+#            fout.write("%s;\n" % line)
+            line_out = fout.readline()
+            fout.write("%s;\n" % line.rstrip())
+        line = fin.readline()
+    print "File written: %s" % out_file_name
+    
+    """ Close the output file """
+    fout.close()
+    fin.close()
+    print "Files closed"
+
+#//create_header_file()
+
+def show_usage():
+    print """<< Usage >>
+    <Options>
+        -h      Show usage
+        sub     Create subversion folders
+        cp      Copy files
+                ex: util2.py cp c
+                => copy default C files
+        hd      Create header file
+                ex: util2.py hd sub1.c
+                => Create a header file from sub1.c
+    """
+
+#//show_usage()
+
+if __name__ == '__main__':
+    # 00 =============================
+#    if len(sys.argv) < 2: print USAGE; sys.exit(0)
+
+    """ Show usage """
+    if len(sys.argv) < 2 or sys.argv[1] == "-h":
+        show_usage()
+        sys.exit(0)
+
+    """ Create subversion folders """
+    if sys.argv[1] == "sub":
             create_subversin_folders(sys.argv)
 
-      """ Copy basic files: java """
-      if sys.argv[1] == "cp":
+    """ Copy basic files: java """
+    if sys.argv[1] == "cp":
             if len(sys.argv) > 2:
 #                  print len(sys.argv)
                   copy_files(sys.argv[2])
             else:
                   print "sys.argv[2] is empty"
+    elif sys.argv[1] == "hd":
+        create_header_file()

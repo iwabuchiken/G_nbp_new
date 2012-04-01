@@ -94,11 +94,19 @@ def do_java():
     cur_path = os.getcwd()
 
     """ build a command line """
-    cmd_line = "%s %s" % ("java", java_path)
+    if len(sys.argv) > 2:
+        cmd_line = "%s %s %s" % ("java", java_path, " ".join(sys.argv[2:]))
+    else:    #len(sys.argv) > 2
+        cmd_line = "%s %s" % ("java", java_path)
+    #//if len(sys.argv) > 2
+        #cmd_line = "%s %s" % ("java", java_path)
     #debug
     print "[%s:%d]" % (os.path.basename(__file__), 
                                         inspect.currentframe().f_lineno),
     print "cmd_line=", cmd_line
+
+    #debug
+    #sys.exit(0)
 
     """ execute java """
     os.system(cmd_line)
@@ -107,6 +115,9 @@ def do_java():
 
 if __name__ == '__main__':
     #debug
+    #print "sys.argv=", sys.argv
+    #sys.exit(0)
+    
 #    for item in sys.argv:
 #        print item
 #    sys.exit(0)
@@ -114,6 +125,21 @@ if __name__ == '__main__':
     #debug
 #    print "__file__=", __file__
 #    sys.exit(0)
-    
+    """
+    javac
+    1. if "-c" option given, execute "javac" 
+    """
+#    if len(sys.argv) > 1 and sys.argv[1] == "-c":
+#        if len(sys.argv) < 3:       # if a package string not given
+#            print "A package string not given."
+#            sys.exit(0)
+#        else:    #len(sys.argv) < 3
+#            packages = sys.argv[2].split(".")
+#            command = "javac %s" % os.path.join("\\".join(packages), sys.)
+#        #//if len(sys.argv) < 3
+#    else:    #len(sys.argv)
+#    
+#    #//if len(sys.argv)
+#    
     do_java()
 

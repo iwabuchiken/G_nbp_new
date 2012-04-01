@@ -93,14 +93,16 @@ def do_job \
 def show_usage():
     print """<<Usage>>
     <Syntax>
+        gengit.py go
+            => execute
         gengit.py [options] [file name(s)]
             => execute
-        gengit.py -h
+        gengit.py [-h]
             => show usage
     <Options>
         -a <pattern1> <pattern2> ...
             => add the patterns to the ".gitignore" file
-            <Example> gitgen.py -a class tds exe
+            <Example> gengit.py -a class tds exe
         -b
         -basic
             => create the default file
@@ -191,7 +193,8 @@ def option_n():
 def option_b(ignore_file=".gitignore", flags={}):
     """ vars """
     ignore_list     = \
-            ["tds", "obj", "exe", "class", "pyc", "pyd", "etc", "zip"]
+            ["tds", "obj", "i", "exe", "class", "pyc", "pyd", "etc", "zip"]
+            #["tds", "obj", "exe", "class", "pyc", "pyd", "etc", "zip"]
 #    ignore_file     = ".gitignore"
 
     if flags["display-only"] == 1:
@@ -225,7 +228,9 @@ def start_job():
     flags["display-only"]    = 0
 
     """ handle options """
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 1 and sys.argv[1] == "go":
+        pass
+    elif len(sys.argv) > 1:
         if "-z" in sys.argv:    # flags
             flags["display-only"]    = 1
         if "-a" in sys.argv:    # add new patterns
@@ -276,7 +281,8 @@ def start_job():
         if "-n" in sys.argv:     # designate the name of the file
             option_n()
     else:
-        pass
+        show_usage()
+        sys.exit(0)
 #        #debug
 #        print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
 #        sys.exit(0)
@@ -291,7 +297,7 @@ def start_job():
 #//start_job()
 
 if __name__ == '__main__':
-#    #debug
+    #debug
 #    print "\n[DEBUG:%d]" % inspect.currentframe().f_lineno;
 #    print sys.argv
 #    if len(sys.argv) > 1:
