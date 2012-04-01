@@ -110,6 +110,8 @@ def show_usage():
         -d  => Only dirs will be in the list
         -d1 => Only dirs will be in the list.
                 No "*" expression added
+        -d2 <Dir name>
+            => Add directory
         -e abc def
             => The files "abc" and "def" will not be
                 in the ".gitignore" file
@@ -118,6 +120,8 @@ def show_usage():
         -n  => Name the ".gitignore" file
         -z  => Only display the list to be written.
                 File will not be written.
+        -rm <File name>
+            => Remove the file from the list
     """
 
 #//show_usage()
@@ -218,6 +222,149 @@ def option_b(ignore_file=".gitignore", flags={}):
     sys.exit(0)
 #//option_b()
 
+def option_d2():
+    """ validate the length of argv """
+    if len(sys.argv) < 3:
+        print "Dir name missing"
+        sys.exit(0)
+    #//if len(sys.argv) < 3
+
+    """ prepare: vars """
+    target_dir = sys.argv[2]
+    file_name = ".gitignore"
+
+    """ processes
+        1. Is dir?
+    """
+    """ is dir """
+    if not os.path.isdir(target_dir):
+        print "The argument is not a directory: %s" % target_dir
+        sys.exit(0)
+    #//if not os.path.isdir(sys.argv[2])
+
+    """ open the file """
+    try:
+        f = open(file_name, "a")
+        print "File opened: %s" % file_name
+    except Exception, e:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        traceback.print_exc()
+#        e.print_exc()
+        sys.exit(0)
+
+    """ write to the file """
+    f.write("%s/\n" % target_dir)
+    print "%s/\n" % target_dir
+    f.write("%s/*\n" % target_dir)
+    print "%s/*\n" % target_dir
+
+    """ close the file """
+    f.close()
+    print "File closed: %s" % file_name
+
+#//option_d2()
+
+def option_rm():
+    """ validate the length of argv """
+    if len(sys.argv) < 3:
+        print "File name missing"
+        sys.exit(0)
+    #//if len(sys.argv) < 3
+
+    """ prepare: vars """
+    target_file = sys.argv[2]
+    file_name = ".gitignore"
+    lines_new   = list()
+    flag        = False     # True if the target file is in ".gitignore"
+
+    #debug
+    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+    print "target_file=", target_file
+
+    """ processes
+        1.
+    """
+#    """ is dir """
+#    if not os.path.isdir(target_file):
+#        print "The argument is not a directory: %s" % target_file
+#        sys.exit(0)
+#    #//if not os.path.isdir(sys.argv[2])
+
+    """ open the file """
+    try:
+        f = open(file_name, "r")
+        print "File opened: %s" % file_name
+    except Exception, e:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        traceback.print_exc()
+#        e.print_exc()
+        sys.exit(0)
+
+    """ prepare: text """
+    lines = f.readlines()
+
+    """ close file """
+    f.close()
+
+    """ edit text """
+#    lines_new = [line for line in lines if not line == target_file]
+
+    #debug
+#    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+#    print "target_file=", target_file
+
+    for line in lines:
+        print "line=%s target_file=%s" % (line, target_file)
+        if not line == target_file:
+            lines_new.append(line)
+            #debug
+            print "\t", "line appended: %s" % line
+        else:
+            print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+            print "\t", "line: %s" % line
+            print "\t", "target_file: %s" % target_file
+            if flag == False: flag = True
+
+    #debug
+    print 
+    print "------------------------------------"
+    print lines_new
+    print "------------------------------------"
+    
+    """ open file: write """
+    f = open(file_name, "w")
+    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+    print "File opened: %s" % file_name
+
+    """ write to the file """
+    try:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        print "------------------------------------- lines_new"
+        for line in lines_new:
+            print "line=", line
+            f.write("%s\n" % line)
+        print "-------------------------------------"
+    except Exception, e:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        traceback.print_exc()
+#        e.print_exc()
+        sys.exit(0)
+
+    if flag == True:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        print "The line removed: %s" % target_file
+    else:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        print "flag=", flag
+        print "The given file is not in \".gitignore\""
+    #//if falg == True
+    
+    """ close the file """
+    f.close()
+    print "File closed: %s" % file_name
+
+#//option_rm()
+
 def start_job():
     """ vars """
     exempt_list     = list()    # items to be exempted
@@ -231,6 +378,11 @@ def start_job():
     if len(sys.argv) > 1 and sys.argv[1] == "go":
         pass
     elif len(sys.argv) > 1:
+        if "-rm" in sys.argv:    # flags
+            option_rm()
+        if "-d2" in sys.argv:    # flags
+            option_d2()
+            sys.exit(0)
         if "-z" in sys.argv:    # flags
             flags["display-only"]    = 1
         if "-a" in sys.argv:    # add new patterns

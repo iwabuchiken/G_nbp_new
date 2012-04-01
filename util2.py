@@ -254,50 +254,90 @@ def copy_files(args):
             
 #//def copy_files(options):
 
+"""
+create_header_file()
+<Parameters>
+
+<Return>
+
+<Descriptioins>
+1. prepare: lines_src[]
+2. prepare: lines_header[]
+3. write: lines_header[]
+"""
 def create_header_file():
     """ vars """
-    content = ""    # content of the source file
-    line    = ""    # line from the input file
-    if len(sys.argv) > 2:
-        src_file_name = sys.argv[2] # source file name
-    else:
-        print "Usage: util2.py hd sub1.c"
+    if len(sys.argv) < 3:
+        print "<Usage> util.py hd <source file>"
         sys.exit(0)
-    #//if len(sys.argv) 2
-    src_file_name = sys.argv[2]
-    out_file_name = "%s_test.h" % \
-            os.path.splitext(src_file_name)[0]
 
-    """ Open the output file """
-    fin = file(src_file_name, "r")
-#    fout = file(out_file_name, "w+")
-    fout = file(out_file_name, "r+")
-    print "Files opened"
+    fin_name   = sys.argv[2]
+#    fout_name   = "%s.h.test" % os.path.splitext(fin_name)[0]
+    fout_name   = "%s.h" % os.path.splitext(fin_name)[0]
+    """ prepare: output file """
+    if not os.path.isfile(fout_name):
+        f = open(fout_name, "w")
+        f.close()
+        print "File created: %s" % fout_name
+#        print "Output file not prepared: %s" % fout_name
+#        sys.exit()
+    #//if not os.path.isfile(fout_name)
 
-    """ set the reg expression """
-    regex = re.compile("^((\w|\s)*\((\w|\s)*\))$")
+    fin         = open(fin_name, 'r')
+    fout        = open(fout_name, 'r')
+    lines_src       = list()
+    lines_header    = list()
+#    regex = re.compile('^((\w|\s)*\((\w|\s)*\))$')
+    regex = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\))$')
 
-    """ read, search, write """
+    """ prepare: lines_src """
     line = fin.readline()
     while line:
         result = regex.search(line)
-#        if regex.search(line)
         if result:
-#            line[-1] = ";"
-#            line[-1] = ';'
-#            print line[-1]
-#            print line[-2]
-#            fout.write("%s;\n" % line)
-            line_out = fout.readline()
-            fout.write("%s;\n" % line.rstrip())
+#            print result.group()
+            lines_src.append(result.group().rstrip())
         line = fin.readline()
-    print "File written: %s" % out_file_name
-    
-    """ Close the output file """
-    fout.close()
-    fin.close()
-    print "Files closed"
 
+    #debug
+#    print lines_src, "(%d)" % len(lines_src)
+
+    """ prepare: lines_header[] """
+    line = fout.readline()
+    regex = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\));$')
+    while line:
+        print "line=%s" % line
+        result = regex.search(line)
+        print "result=", result
+        if not result:
+            lines_header.append(line.rstrip())
+        line = fout.readline()
+    #debug
+    print "<lines_header>"
+    print lines_header
+    print len(lines_header)
+
+    """ write: lines_header[] 
+        1.
+        2.
+    """
+    fout        = open(fout_name, 'w')
+    """ 1. lines from the original header file """
+    for line in lines_header:
+        fout.write(line)
+        fout.write('\n')
+
+    """ 2. lines from the source file """
+    for line in lines_src:
+        fout.write("%s;\n" % line)
+#        fout.write('\n')
+
+    """ show message """
+    print "File written: %s" % fout_name
+
+    """ close file """
+    fin.close()
+    fout.close()
 #//create_header_file()
 
 def show_usage():
