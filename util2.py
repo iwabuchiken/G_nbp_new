@@ -357,89 +357,114 @@ def create_header_file2():
     lines_hdr       = list()    # lines from the header file
     lines_hdr_new   = list()    # lines for the new header file
     lines_hdr_comment   = list()
+    lines_func          = list()
     lines_func_static   = list()
-    lines_func_non_static   = list()
-#    lines_hdr_macro   = list()
-#    lines_hdr_func   = list()
     
     """ Regular expressions """
-#    reg1 = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\))$') # functions
-#    reg1 = re.compile('^((!struct)(\w|\s|\*)*\((\w|\s|\*)*\))$') # functions
-#    reg_static      = re.compile('^static\s(\w|\s|\*)*;$') # static-type function
-#    reg_static  = re.compile('^static\s(\w|\*|_)*\((\w|\s|\*|,)*\);$') # non static-type function
-#    reg_static  = re.compile('^static\s(\w|\*)*\s(\w|_)\((\w|\s|\*|,)*\);$') # non static-type function
-    reg_static  = re.compile('^static\s(\w|\*)*\s(\w|_)*\((\w|\s|\*|,)*\);$') # non static-type function
-#    reg_non_static  = re.compile('^((\w|\s|\*|)*(\w|\s|\*|_)*\((\w|\s|\*|,)*\));$') # non static-type function
-#    reg_non_static  = re.compile('^((\w|\s|\*|)*\s(\w|\s|\*|_)*\((\w|\s|\*|,)*\));$') # non static-type function
-    reg_non_static  = re.compile('^((\w|\*)*\s(\w|\*|_)*\((\w|\s|\*|,)*\));$') # non static-type function
-#    reg3 = re.compile('^\#(define|include|ifdef|endif)(\w|\s|\*)*$') # macro
-    reg4 = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\));$')    # lines in the header file
+#    reg_func1        = re.compile('^((\w|\*)*\s*(\w|\*|_)*\((\w|\s|\*|,)*\));$') # function
+    reg_func1        = re.compile('^((\w|\*)*\s*(\w|\*|_)*\((\w|\s|\*|,|\[|\])*\));$') # function
+#    reg_func2        = re.compile('^((\w|\*)*\s(\w|\*)*\s(\w|\*|_)*\((\w|\s|\*|,)*\));$') # function2
+#    reg_func2        = re.compile('^((\w|\*)*\s*(\w|\*)*\s*(\w|\*|_)*\((\w|\s|\*|,)*\));$') # function2
+    reg_func2        = re.compile('^((\w|\*)*\s*(\w|\*)*\s*(\w|\*|_)*\((\w|\s|\*|,|\[|\])*\));$') # function2
+    reg3             = re.compile('^//.+$')     # "//prototypes" lines
+    reg_func_static = re.compile('^static') # static-type function
 
     """ prepare: lines_src """
-    lines_src = fin.readlines()
-    lines_hdr = fout.readlines()
-    lines_hdr = [line.rstrip() for line in lines_hdr]
+    lines_src = [line.rstrip() for line in fin.readlines()]
+    lines_hdr = [line.rstrip() for line in fout.readlines()]
 
-    """ Extract the comment lines from the header """
+    """ Extract the comment lines from the header
+    1. Extract the commments
+    2. Close the file
+    """
     #debug
     print "fout.name=", fout.name
 
-    for line in lines_hdr:
-        if reg_static.search(line):
-            #debug            
-            print "line=", line
-#//if reg_static.search(line)
-#    for line in lines_hdr:
-#        if not reg_static.search(line) or \
-#                not reg_non_static.search(line):
-##        if not reg_non_static.search(line) or \
-##                not reg_static.search(line):
-#            lines_hdr_new.append(line)
+    for line in lines_hdr:      # Extract lines other than function lines
+        if not reg_func1.search(line):
+            if not reg_func2.search(line):
+                if not reg3.search(line):
+                    lines_hdr_new.append(line)
+
+    # 2. Close the file
+    fout.close()
 
     #debug
     print "<lines_hdr_new>"
     print lines_hdr_new
+    print 
 
-    #for line in lines_hdr
-#    for line in lines_src:
-#        if reg1.search(line):   # append: function
-#            lines_hdr_func.append(line)
-##        elif reg2.search(line): # append: struct
-#        if reg2.search(line): # append: struct
-#            lines_hdr_struct.append(line)
-##        elif reg3.search(line): # append: macro
-##            lines_hdr_macro.append(line)
+    """ Extract function signitures from the source
+    1. Redefine regexes
+    2. Search
+    3. Sort the results
+    """
+    # 1. Redefine regexes
+#    reg_func1        = re.compile('^((\w|\*)*\s(\w|\*|_)*\((\w|\s|\*|,)*\))$') # function
+#    reg_func2        = re.compile('^((\w|\*)*\s(\w|\*)*\s(\w|\*|_)*\((\w|\s|\*|,)*\))$') # function2
+    reg_func1        = re.compile('^((\w|\*)*\s(\w|\*|_)*\((\w|\s|\*|,|\[|\])*\))$') # function
+    reg_func2        = re.compile('^((\w|\*)*\s(\w|\*)*\s(\w|\*|_)*\((\w|\s|\*|,|\[|\])*\))$') # function2
+    reg_func_static = re.compile('^static') # static-type function
+
+    # 2. Search
+    for line in lines_src:
+        if reg_func1.search(line) or reg_func2.search(line):
+            if reg_func_static.search(line):
+                lines_func_static.append(line)
+            else:
+                lines_func.append(line)
+
+    # 3. Sort the results
+    lines_func_static.sort()
+    lines_func.sort()
+
+    """ Write to the header file
+    0. Edit lines_hdr_new
+    1. Reopen the header file
+    2. Write
+    3. Close the file
+    """
+    # 0. Edit lines_hdr_new
+    lines_hdr_new = [line for line in lines_hdr_new if not line == '']
+
+    # 1. Reopen the header file
+    fout        = open(fout_name, 'w')
+
+    # 2. Write
+    try:
+        for line in lines_hdr_new:  # comment lines
+            fout.write("%s\n" % line)
+        #for line in lines_hdr_new
+        fout.write("\n//prototypes: static =========================\n")
+        for line in lines_func_static:  # funcs: static
+            fout.write("%s;\n" % line)
+        #for line in lines_func_static
+        fout.write("\n//prototypes: non-static =========================\n")
+        for line in lines_func:         # funcs: non-static
+            fout.write("%s;\n" % line)
+        #for line in lines_func
+    except Exception, e:
+        print "\n[DEBUG:%d]" \
+                        % inspect.currentframe().f_lineno;
+        traceback.print_exc()
+        sys.exit(0)
+    print "\n[DEBUG:%d]" \
+                        % inspect.currentframe().f_lineno;
+    print "File written: %s" % fout.name
+    #//try
+
+    # 3. Close the file
+    fout.close()
 
     #debug
-#    print "<lines_hdr_func>"
-#    print lines_hdr_func
-#    print "<lines_hdr_struct>"
-#    print lines_hdr_struct
-#    print "<lines_hdr_macro>"
-#    print lines_hdr_macro
-
-#    """ Extract the comment lines from the header
-#        1. Redefine: Regex
-#        2.
-#    """
-#    """ Regular expressions """
-#    reg1 = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\));$') # functions
-#    reg2 = re.compile('^struct\s(\w|\s|\*)*;$') # struct
-#    reg3 = re.compile('^\#(define|include|ifdef|endif)(\w|\s|\*)*$') # macro
-#    reg4 = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\));$')    # lines in the header file
-#
-#    for line in lines_hdr:
-#        if reg1.search(line) or \
-#            reg2.search(line) or \
-#            reg3.search(line) or \
-#            reg4.search(line):
-#                continue
-#        else:
-#            lines_hdr_new.append(line)
-
-
-    #for line in lines_hdr
-
+#    print "<lines_func_static>"
+#    print lines_func_static
+##    print lines_func_static.sort()
+#    print "<lines_func>"
+##    print lines_func
+#    lines_func.sort()
+#    print lines_func
+    
     """ close file """
     fin.close()
     fout.close()
