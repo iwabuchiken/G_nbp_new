@@ -52,26 +52,19 @@ def create_subversin_folders(args):
     suffixes = ["master", "repo", "work"]
 
     # Create subversion dirs ######
-    #debug
-#    for i in range(len(sys.argv)):
-#        print i, "=", sys.argv[i]
-#    if sys.argv[1] = "sub" and not sys.argv[2] == "":
+    
+
     if sys.argv[1] == "sub" and not sys.argv[2] == "":
         print "Create a dir: ", sys.argv[2]
         for string in suffixes:
             os.mkdir(sys.argv[2] + "_" + string)
             print "Dir created: %s" % \
                     (sys.argv[2] + "_" + string)
-#        os.mkdir(sys.argv[2])
+
 #//def create_subversin_folders(args):
 
 def copy_files_java(src_dir_path, dst_dir_path):
-      #debug
-#      print "\n[DEBUG:%d]" \
-#                        % inspect.currentframe().f_lineno;
-#      print "src_dir_path=", src_dir_path
-#      print "dst_dir_path=", dst_dir_path
-#      sys.exit(0)
+      
 
       """
       <variables>
@@ -102,12 +95,6 @@ def copy_files_java(src_dir_path, dst_dir_path):
       """ build a full source path """
       src_dir_path = os.path.join(src_dir_path, "java")
 
-      #debug
-#      print "\n[DEBUG:%d]" \
-#                        % inspect.currentframe().f_lineno;
-#      print "src_dir_path=", src_dir_path
-#      sys.exit(0)
-      
       """ Get a list of the src dir """
       for item in os.listdir(src_dir_path):
             """ Build a src file path """
@@ -142,14 +129,8 @@ def copy_files_java(src_dir_path, dst_dir_path):
 
 #//def copy_files_java(src_dir_path, dst_dir_path)
 
-
 def copy_files_c_jissen(src_dir_path, dst_dir_path):
-      #debug
-#      print "\n[DEBUG:%d]" \
-#                        % inspect.currentframe().f_lineno;
-#      print "src_dir_path=", src_dir_path
-#      print "dst_dir_path=", dst_dir_path
-#      sys.exit(0)
+      
 
       """
       <variables>
@@ -181,11 +162,7 @@ def copy_files_c_jissen(src_dir_path, dst_dir_path):
       src_dir_path = os.path.join(
                                     src_dir_path, "cpp", "c_jissen")
 
-      #debug
-#      print "\n[DEBUG:%d]" \
-#                        % inspect.currentframe().f_lineno;
-#      print "src_dir_path=", src_dir_path
-#      sys.exit(0)
+      
 
       """ Get a list of the src dir """
       for item in os.listdir(src_dir_path):
@@ -220,7 +197,6 @@ def copy_files_c_jissen(src_dir_path, dst_dir_path):
       return is_successful
 
 #//def copy_files_c_jissen(src_dir_path, dst_dir_path)
-
 
 def copy_files(args):
       
@@ -272,22 +248,21 @@ def create_header_file():
         sys.exit(0)
 
     fin_name   = sys.argv[2]
-#    fout_name   = "%s.h.test" % os.path.splitext(fin_name)[0]
+
     fout_name   = "%s.h" % os.path.splitext(fin_name)[0]
     """ prepare: output file """
     if not os.path.isfile(fout_name):
         f = open(fout_name, "w")
         f.close()
         print "File created: %s" % fout_name
-#        print "Output file not prepared: %s" % fout_name
-#        sys.exit()
+
     #//if not os.path.isfile(fout_name)
 
     fin         = open(fin_name, 'r')
     fout        = open(fout_name, 'r')
     lines_src       = list()
     lines_header    = list()
-#    regex = re.compile('^((\w|\s)*\((\w|\s)*\))$')
+
     regex = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\))$')
 
     """ prepare: lines_src """
@@ -295,12 +270,11 @@ def create_header_file():
     while line:
         result = regex.search(line)
         if result:
-#            print result.group()
+
             lines_src.append(result.group().rstrip())
         line = fin.readline()
 
-    #debug
-#    print lines_src, "(%d)" % len(lines_src)
+    
 
     """ prepare: lines_header[] """
     line = fout.readline()
@@ -330,7 +304,6 @@ def create_header_file():
     """ 2. lines from the source file """
     for line in lines_src:
         fout.write("%s;\n" % line)
-#        fout.write('\n')
 
     """ show message """
     print "File written: %s" % fout_name
@@ -339,6 +312,138 @@ def create_header_file():
     fin.close()
     fout.close()
 #//create_header_file()
+
+"""
+create_header_file2()
+<Parameters>
+
+<Return>
+
+<Descriptioins>
+1. prepare: lines_src[]
+2. prepare: lines_header[]
+3. write: lines_header[]
+
+<Notes>
+1. Macro lines   => Ignored
+"""
+def create_header_file2():
+    """  Steps
+        1. Open the files
+        2. Extract lines from the header file
+        3. Extract lines from the source file
+    """
+    """ vars """
+    if len(sys.argv) < 3:
+        print "<Usage> util.py hd <source file>"
+        sys.exit(0)
+
+    fin_name   = sys.argv[2]
+
+    fout_name   = "%s.h" % os.path.splitext(fin_name)[0]
+    """ prepare: output file """
+    if not os.path.isfile(fout_name):
+        f = open(fout_name, "w")
+        f.close()
+        print "File created: %s" % fout_name
+
+    #//if not os.path.isfile(fout_name)
+
+    fin         = open(fin_name, 'r')
+    fout        = open(fout_name, 'r')
+    """ Arrays
+    """
+    lines_src       = list()    # lines from the source file
+    lines_hdr       = list()    # lines from the header file
+    lines_hdr_new   = list()    # lines for the new header file
+    lines_hdr_comment   = list()
+    lines_func_static   = list()
+    lines_func_non_static   = list()
+#    lines_hdr_macro   = list()
+#    lines_hdr_func   = list()
+    
+    """ Regular expressions """
+#    reg1 = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\))$') # functions
+#    reg1 = re.compile('^((!struct)(\w|\s|\*)*\((\w|\s|\*)*\))$') # functions
+#    reg_static      = re.compile('^static\s(\w|\s|\*)*;$') # static-type function
+#    reg_static  = re.compile('^static\s(\w|\*|_)*\((\w|\s|\*|,)*\);$') # non static-type function
+#    reg_static  = re.compile('^static\s(\w|\*)*\s(\w|_)\((\w|\s|\*|,)*\);$') # non static-type function
+    reg_static  = re.compile('^static\s(\w|\*)*\s(\w|_)*\((\w|\s|\*|,)*\);$') # non static-type function
+#    reg_non_static  = re.compile('^((\w|\s|\*|)*(\w|\s|\*|_)*\((\w|\s|\*|,)*\));$') # non static-type function
+#    reg_non_static  = re.compile('^((\w|\s|\*|)*\s(\w|\s|\*|_)*\((\w|\s|\*|,)*\));$') # non static-type function
+    reg_non_static  = re.compile('^((\w|\*)*\s(\w|\*|_)*\((\w|\s|\*|,)*\));$') # non static-type function
+#    reg3 = re.compile('^\#(define|include|ifdef|endif)(\w|\s|\*)*$') # macro
+    reg4 = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\));$')    # lines in the header file
+
+    """ prepare: lines_src """
+    lines_src = fin.readlines()
+    lines_hdr = fout.readlines()
+    lines_hdr = [line.rstrip() for line in lines_hdr]
+
+    """ Extract the comment lines from the header """
+    #debug
+    print "fout.name=", fout.name
+
+    for line in lines_hdr:
+        if reg_static.search(line):
+            #debug            
+            print "line=", line
+#//if reg_static.search(line)
+#    for line in lines_hdr:
+#        if not reg_static.search(line) or \
+#                not reg_non_static.search(line):
+##        if not reg_non_static.search(line) or \
+##                not reg_static.search(line):
+#            lines_hdr_new.append(line)
+
+    #debug
+    print "<lines_hdr_new>"
+    print lines_hdr_new
+
+    #for line in lines_hdr
+#    for line in lines_src:
+#        if reg1.search(line):   # append: function
+#            lines_hdr_func.append(line)
+##        elif reg2.search(line): # append: struct
+#        if reg2.search(line): # append: struct
+#            lines_hdr_struct.append(line)
+##        elif reg3.search(line): # append: macro
+##            lines_hdr_macro.append(line)
+
+    #debug
+#    print "<lines_hdr_func>"
+#    print lines_hdr_func
+#    print "<lines_hdr_struct>"
+#    print lines_hdr_struct
+#    print "<lines_hdr_macro>"
+#    print lines_hdr_macro
+
+#    """ Extract the comment lines from the header
+#        1. Redefine: Regex
+#        2.
+#    """
+#    """ Regular expressions """
+#    reg1 = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\));$') # functions
+#    reg2 = re.compile('^struct\s(\w|\s|\*)*;$') # struct
+#    reg3 = re.compile('^\#(define|include|ifdef|endif)(\w|\s|\*)*$') # macro
+#    reg4 = re.compile('^((\w|\s|\*)*\((\w|\s|\*)*\));$')    # lines in the header file
+#
+#    for line in lines_hdr:
+#        if reg1.search(line) or \
+#            reg2.search(line) or \
+#            reg3.search(line) or \
+#            reg4.search(line):
+#                continue
+#        else:
+#            lines_hdr_new.append(line)
+
+
+    #for line in lines_hdr
+
+    """ close file """
+    fin.close()
+    fout.close()
+#//create_header_file2()
 
 def show_usage():
     print """<< Usage >>
@@ -357,7 +462,6 @@ def show_usage():
 
 if __name__ == '__main__':
     # 00 =============================
-#    if len(sys.argv) < 2: print USAGE; sys.exit(0)
 
     """ Show usage """
     if len(sys.argv) < 2 or sys.argv[1] == "-h":
@@ -371,9 +475,10 @@ if __name__ == '__main__':
     """ Copy basic files: java """
     if sys.argv[1] == "cp":
             if len(sys.argv) > 2:
-#                  print len(sys.argv)
+
                   copy_files(sys.argv[2])
             else:
                   print "sys.argv[2] is empty"
     elif sys.argv[1] == "hd":
-        create_header_file()
+#        create_header_file()
+        create_header_file2()
