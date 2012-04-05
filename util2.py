@@ -481,13 +481,35 @@ def show_usage():
         hd      Create header file
                 ex: util2.py hd sub1.c
                 => Create a header file from sub1.c
+        len <string>
+                => Show the length of <string>
+                ex. util2.py len http://abc.org
+                    => 14
     """
 
 #//show_usage()
 
-if __name__ == '__main__':
-    # 00 =============================
+def show_string_length(args):
+    """ validate arguements """
+    if len(args) < 3:
+        print "Input the string. Your input: ", args
+        sys.exit(0)
+    #//if len(args) < 3
 
+    """ Show length """
+    print "Given string: ", args[2]
+    print "\t", "Length: ", len(args[2])
+
+    """ Closing """
+    sys.exit(0)
+#//show_string_length()
+
+def dispatch():
+    """ commands
+        1. Show usage
+        2. Create subversion folders
+        3. Copy basic files: java
+    """
     """ Show usage """
     if len(sys.argv) < 2 or sys.argv[1] == "-h":
         show_usage()
@@ -507,3 +529,33 @@ if __name__ == '__main__':
     elif sys.argv[1] == "hd":
 #        create_header_file()
         create_header_file2()
+
+    """ Show string length """
+    if sys.argv[1] == "len":
+            show_string_length(sys.argv)
+
+#//dispatch()
+
+if __name__ == '__main__':
+    # 00 =============================
+    dispatch()
+
+#    """ Show usage """
+#    if len(sys.argv) < 2 or sys.argv[1] == "-h":
+#        show_usage()
+#        sys.exit(0)
+#
+#    """ Create subversion folders """
+#    if sys.argv[1] == "sub":
+#            create_subversin_folders(sys.argv)
+#
+#    """ Copy basic files: java """
+#    if sys.argv[1] == "cp":
+#            if len(sys.argv) > 2:
+#
+#                  copy_files(sys.argv[2])
+#            else:
+#                  print "sys.argv[2] is empty"
+#    elif sys.argv[1] == "hd":
+##        create_header_file()
+#        create_header_file2()
