@@ -61,10 +61,7 @@ def do_job \
             else:
                 dir_list_new.append(item)
                 if flags["add-asterisk"] == 1:
-#                    #debug
-#                    print "\n[DEBUG:%d]" % inspect.currentframe().f_lineno;
-#                    print flags
-#                    sys.exkt(0)
+
                     
                     dir_list_new.append(os.path.join(item, "*"))
             #//if "-z" in sys.argv
@@ -74,7 +71,6 @@ def do_job \
             else:
                 dir_list_new.append(item)
             #//if "-z" in sys.argv
-#            dir_list_new.append(item)
 
     """ replace the separator """
     if not "-z" in sys.argv:
@@ -145,7 +141,7 @@ def option_a():
                 print "Program ends."
                 sys.exit(0)
             #//if ans == "y"
-#                sys.exit(0)
+
         #//if not ".gitignore" in os.listdir(os.getcwd())
         """ patterns designated?
             if yes,
@@ -155,10 +151,7 @@ def option_a():
         """
         index = sys.argv.index("-a")
         if len(sys.argv) > index + 1:
-#                #debug
-#                print "[DEBUG:%d] " % inspect.currentframe().f_lineno
-#                print sys.argv[(index + 1):]
-#                sys.exit(0)
+
             f = open(".gitignore", "a")     # open the file
             for item in sys.argv[(index + 1):]:
                 f.write("*.%s" % item)
@@ -167,18 +160,12 @@ def option_a():
             print "New patterns written: %s" % ["*." + x for x in sys.argv[(index + 1):]]
         else:
             pass
-#            #debug
-#            print "[DEBUG:%d] " % inspect.currentframe().f_lineno
-#            print
-#            print "Option \"-a\" given. Patterns not given."
-#            sys.exit(0)
 
         """ program ends """
         sys.exit(0)
         #//if "-a" in sys.argv
 
 #//option_a()
-
 
 def option_n():
     if "-n" in sys.argv:
@@ -200,7 +187,6 @@ def option_b(ignore_file=".gitignore", flags={}):
     ignore_list     = \
             ["tds", "obj", "i", "exe", "class", "pyc", "pyd", "etc", "zip"]
             #["tds", "obj", "exe", "class", "pyc", "pyd", "etc", "zip"]
-#    ignore_file     = ".gitignore"
 
     if flags["display-only"] == 1:
         for item in ignore_list:
@@ -250,7 +236,7 @@ def option_d2():
     except Exception, e:
         print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
         traceback.print_exc()
-#        e.print_exc()
+
         sys.exit(0)
 
     """ write to the file """
@@ -284,10 +270,6 @@ def option_rm():
     lines_new   = list()
     flag        = False     # True if the target file is in ".gitignore"
 
-#    #debug
-#    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#    print "target_file=", target_file
-
     """ processes
         1. ".gitignore" => exists?
         2. Open the file
@@ -300,11 +282,6 @@ def option_rm():
         9. Close the file
         10. Exit
     """
-#    """ is dir """
-#    if not os.path.isdir(target_file):
-#        print "The argument is not a directory: %s" % target_file
-#        sys.exit(0)
-#    #//if not os.path.isdir(sys.argv[2])
 
     """ 1. ".gitignore" => exists? """
     if os.path.isfile(os.path.join(os.getcwd(), file_name)):
@@ -316,15 +293,7 @@ def option_rm():
         print "\".gitignore\" doesn't exist."
         sys.exit(0)
 
-#    #debug
-#    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#    sys.exit(0)
-
     #//if os.path.isfile(os.path.join(os.getcwd(), file_name))
-#    #debug
-#    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#    print os.getcwd()
-#    sys.exit(0)
 
     """ 2. Open the file """
     try:
@@ -334,61 +303,25 @@ def option_rm():
     except Exception, e:
         print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
         traceback.print_exc()
-#        e.print_exc()
+
         sys.exit(0)
 
     """ 3. Read text from the file """
     lines_original = [line.rstrip() for line in f.readlines()]
-#    lines_original = ["%s\n" % line for line in f.readlines()]
-
-#    #debug
-#    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#    print lines_original
-#    sys.exit(0)
 
     """ close file """
     f.close()
 
     """ 5. Prepare new text """
-#    lines_new = [line for line in lines_original if not line == target]
+
     for line in lines_original:
         if not line == target:
             lines_new.append(line)
             if flag == False:
-#            if flag == false:
+
                 flag = True
-            #//if falg == false
         #//if not line == target:
-#    #debug
-#    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#    print lines_new
-#    sys.exit(0)
-    #//for line in lines_original:
 
-#    lines_new = [line for line in lines if not line == target_file]
-
-    #debug
-#    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#    print "target_file=", target_file
-
-#    for line in lines:
-#        print "line=%s target_file=%s" % (line, target_file)
-#        if not line == target_file:
-#            lines_new.append(line)
-#            #debug
-#            print "\t", "line appended: %s" % line
-#        else:
-#            print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#            print "\t", "line: %s" % line
-#            print "\t", "target_file: %s" % target_file
-#            if flag == False: flag = True
-#
-#    #debug
-#    print
-#    print "------------------------------------"
-#    print lines_new
-#    print "------------------------------------"
-    
     """ 6. Reopen the file """
     try:
         f = open(file_name, "w")
@@ -405,14 +338,14 @@ def option_rm():
     except Exception, e:
         print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
         traceback.print_exc()
-#        e.print_exc()
+
         sys.exit(0)
 
     """ 8. Report the result: Deleted the line? """
     if flag == True:
         print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
         print "The line removed: %s" % target
-#        print "The line removed: %s" % target_file
+
     else:
         print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
         print "flag=", flag
@@ -429,8 +362,144 @@ def option_rm():
 #//option_rm()
 
 def option_d3():
-    """ vars """
+    """ prepare: vars """
+    target_list = list()
+    file_name   = ".gitignore"
+    lines_original  = list()
+    lines_new   = list()
+    flag        = False     # True if new line(s) written
+    flags = dict()          # flags for "Add asterisk"
+    
+    """ processes
+        1. ".gitignore" => exists?
+        2. Open the file
+        3. Read text from the file
+        4. Close the file
+        5. Prepare new text
+        6. Reopen the file
+        7. Write the new text into the file
+        8. Report the result: Deleted the line?
+        9. Close the file
+        10. Exit
+    """
 
+    """ 1. ".gitignore" => exists? """
+    if os.path.isfile(os.path.join(os.getcwd(), file_name)):
+        #debug
+        print os.path.join(os.getcwd(), file_name)
+    else:
+        #debug
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        print "\".gitignore\" doesn't exist."
+        sys.exit(0)
+
+    #//if os.path.isfile(os.path.join(os.getcwd(), file_name))
+
+    """ 2. Open the file """
+    try:
+        f = open(file_name, "r")
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        print "File opened in \"r\": %s" % file_name
+    except Exception, e:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        traceback.print_exc()
+
+        sys.exit(0)
+
+    """ 3. Read text from the file """
+    lines_original = [line.rstrip() for line in f.readlines()]
+
+    """ close file """
+    f.close()
+
+    # message
+    print "File closed: %s" % file_name
+
+    """ 5. Prepare new text 
+    1. Set flag: add-asterisk => 1
+    2. Judge: A line in target_list[]
+            => exist in lines_original[]?
+                => (if no) Append the line to lines_original[]
+                => (if yes) Next line (if exists)
+    2. Flag is ?   => if false, return
+    3. Open the file ".gitignore": mode => "w"
+    4. target_list[] => write to the file
+    5. Close the file
+    """
+    """ 1. Set flag: add-asterisk => 1 """
+    flags["add-asterisk"] = 1
+    target_list = [x for x in os.listdir(os.getcwd())
+                    if os.path.isdir(x)]
+
+    """ 2. Judge: A line in target_list[] """
+    #debug
+#    for line in lines_original:
+#        print "line=", line
+
+    for line in target_list:
+        if not line in lines_original:
+            lines_original.append(line)
+            lines_original.append("%s/*" % line)
+
+            #message
+            print "A new line: %s" % line
+
+            if flag == False:
+                flag = True
+            #//if flag == False
+            #debug
+#            print "line=", line
+        #//if not line in lines_original
+    #//for line in target_list:
+
+    if flag == False:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        print "No new directories"
+        return
+    #//if flag == False
+
+    #debug
+#    for line in lines_original:
+#        print "line=", line
+
+#        debug
+#        print "line=", line
+    """ 3. Open the file ".gitignore": mode => "w" """
+    try:
+        f = open(file_name, "w")
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        print "File opened in \"w\": %s" % file_name
+    except Exception, e:
+        print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+        traceback.print_exc()
+
+        sys.exit(0)
+
+    """ 4. target_list[] => write to the file """
+    for line in lines_original:
+        #debug
+#        print "line=", line
+
+        try:
+            f.write("%s\n" % line)
+            #message
+#            print "Line written: %s" % line
+        except Exception, e:
+            print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+            traceback.print_exc()
+
+            sys.exit(0)
+
+    # message
+    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+    print "File written: %s" % file_name
+            
+    """ 5. Close the file """
+    f.close()
+
+    # message
+    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+    print "File closed: %s" % file_name
 
 #//option_d3()
 
@@ -440,8 +509,8 @@ def start_job():
     target_list     = list()    # items to be gitignore-d
     ignore_file_name    = ".gitignore"
     flags = dict()
-    flags["add-asterisk"]    = 1
-    flags["display-only"]    = 0
+    flags["add-asterisk"]    = 1    # 1 => Add asterisk; 0 => No asterisk
+    flags["display-only"]    = 0    # 1 => Dislay only; 0 => Generate file
 
     """ handle options """
     if len(sys.argv) > 1 and sys.argv[1] == "go":
@@ -462,19 +531,11 @@ def start_job():
         if "-n" in sys.argv:
             ignore_file_name = option_n()
 
-#        if "-b" "-basic" in sys.argv or "-basic" in sys.argv:    # add new patterns
         if "-b" in sys.argv or "-basic" in sys.argv:    # add new patterns
-#            #debug
-#            print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#            print "sys.argv=", sys.argv
-#            sys.exit(0)
-            
-#            option_b()
-#            option_b(ignore_file_name)
-            option_b(ignore_file_name, flags)
 
-#        if "-n" in sys.argv:
-#            ignore_file_name = option_n()
+            
+
+            option_b(ignore_file_name, flags)
 
         if sys.argv[1] == "-h":     # show usage
             print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
@@ -482,13 +543,6 @@ def start_job():
             sys.exit(0)
         else:
             pass
-#            #debug
-#            print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#            print "option \"-h\" is not given"
-#            sys.exit(0)
-#        #debug
-#        print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#        sys.exit(0)
 
         if "-e" in sys.argv:     # register exempt files
             exempt_list = sys.argv[2:]
@@ -507,28 +561,20 @@ def start_job():
     else:
         show_usage()
         sys.exit(0)
-#        #debug
-#        print "[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
-#        sys.exit(0)
 
         pass
     #//if len(sys.argv) > 1
 
     """ do job """
-#    do_job(target_list, exempt_list, ignore_file_name)
+
     do_job(target_list, exempt_list, ignore_file_name, flags)
 
 #//start_job()
 
 if __name__ == '__main__':
-    #debug
-#    print "\n[DEBUG:%d]" % inspect.currentframe().f_lineno;
-#    print sys.argv
-#    if len(sys.argv) > 1:
-#        print "sys.argv[1]=", sys.argv[1]
-#        print "if sys.argv[1] == \"-h\"=", (sys.argv[1] == "-h")
-#    else:
-#        print "len(sys.argv)=", len(sys.argv)
-#    sys.exit(0)
 
     start_job()
+
+#    #debug
+#    print "\n[DEBUG:%d]\n" % inspect.currentframe().f_lineno;
+#    ^(.*)(?:(?:\r?\n|\r)\1)+$
