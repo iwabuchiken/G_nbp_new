@@ -473,6 +473,7 @@ def create_header_file2():
 def show_usage():
     print """<< Usage >>
     <Options>
+        ap    Configure Apache
         -h      Show usage
         sub     Create subversion folders
         cp      Copy files
@@ -504,6 +505,166 @@ def show_string_length(args):
     sys.exit(0)
 #//show_string_length()
 
+def config_apache():
+    """ Procedure
+        1. Set up
+        2. Replace the 'DocumentRoot' value
+        3. Replace the value of the 'Directory' directive
+        4. Close and reopen the conf file
+        5. Write the new content to the file
+    """
+    
+    """ 1. Set up 
+    """
+    
+    """ prompt for the new doc root """
+    print "Input the new document root path: ",
+    new_string = raw_input()
+    
+    """ open the config file """
+    file_path = r"C:\xampp2\apache\conf\httpd.conf"    # file path for the config file
+    config_file = open(file_path, "r")      # file object
+    
+    """ read the content """
+    file_content = config_file.readlines()  # content of the config file
+    
+    """ 2. Replace the 'DocumentRoot' value     
+    """
+    
+    """ setup the regular expression """
+    reg1 = re.compile("^DocumentRoot \"(.*)\"")
+    
+    """ search for the line """
+    line_counter = 0        # line number of the file content
+    new_content = list()    # content for the new file
+    
+    # search for the line
+    for line in file_content:
+        if reg1.search(line):
+            """ increment the counter """
+            line_counter += 1
+            """ show the original line """
+            print "\n[DEBUG:%d]" \
+                                    % inspect.currentframe().f_lineno
+            
+            print "Original=", line            
+            """ replace the string """
+            line = line.replace(reg1.search(line).group(1), new_string)
+            """ show the new line """
+            print "\n[DEBUG:%d]" \
+                                    % inspect.currentframe().f_lineno
+            print "New line=", line
+            """ append the new line  """
+            new_content.append(line)
+#            #debug
+#            print "\n[DEBUG:%d]" \
+#                                    % inspect.currentframe().f_lineno;
+#            print "line=", line, "(", line_counter, ")"
+        else:
+            """ increment the counter """
+            line_counter += 1
+            """ append the new line  """
+            new_content.append(line)
+        #//if reg1.search(line)
+    #//for line in file_content:
+    
+    """ 3. Replace the value of the 'Directory' directive
+    """
+    line_counter = 0
+    """ setup the regular expression """
+    reg1 = re.compile("^<Directory \"(C:/xampp2/htdocs)\">")
+    
+    """ Search and replace """
+    for line in file_content:
+        if reg1.search(line):
+            """ increment the counter """
+            line_counter += 1
+            
+            """ show the original line """
+            print "\n[DEBUG:%d]" \
+                                    % inspect.currentframe().f_lineno
+            print "Original=", line, "(", line_counter, ")"
+            
+            """ replace the string """
+            line = line.replace(reg1.search(line).group(1), new_string)
+            
+            """ show the new line """
+            print "\n[DEBUG:%d]" \
+                                    % inspect.currentframe().f_lineno
+            print "New line=", line, "(", line_counter, ")"
+            
+            """ append the new line  """
+            new_content.append(line)
+            
+            #debug
+            print "\n[DEBUG:%d]" \
+                                    % inspect.currentframe().f_lineno
+            print "line appended: ", line
+            
+        else:
+            """ increment the counter """
+            line_counter += 1
+            """ append the new line  """
+            new_content.append(line)
+        #//if reg1.search(line):
+    #//for line in file_content:
+    
+#    #debug
+#    print "\n[DEBUG:%d]" \
+#                            % inspect.currentframe().f_lineno
+#    print "new_content=", new_content[:10]
+    
+    """ 4. Close and reopen the conf file 
+    """
+    """ Close and reopen the file """
+    config_file.close()
+    
+    """ Reopen the file """
+    try:
+        config_file = open(file_path, "w")      # file object
+    except IOError, e:
+        #debug
+        print "\n[DEBUG:%d]" \
+                                % inspect.currentframe().f_lineno;
+        traceback.print_exc()
+        sys.exit(1)
+    """ 5. Write the new content to the file
+    """
+#    """ Set up the text """
+     #debug
+#    print "\n[DEBUG:%d]" \
+#                            % inspect.currentframe().f_lineno
+#    print new_content[:10]
+                            
+     
+    """ Write to the file """
+    try:
+        
+#        #debug
+#        print "\n[DEBUG:%d]" \
+#                                % inspect.currentframe().f_lineno
+#        print "new_content="
+#        print new_content
+
+        config_file.write("".join(new_content))
+        print "File written: ", os.path.dirname(file_path)
+    except Exception, e:
+        traceback.print_exc()
+    finally:
+        config_file.close()
+    #debug
+#    print "\n[DEBUG:%d]" \
+#                            % inspect.currentframe().f_lineno;
+#    for line in file_content:
+#        if reg1.search(line):
+#            print "line=", line
+#        else:
+#            pass
+#    print "Done."
+#    print "file_path=", file_path
+#    print "new_string=", new_string
+#//def config_apache()
+
 def dispatch():
     """ commands
         1. Show usage
@@ -534,6 +695,10 @@ def dispatch():
     if sys.argv[1] == "len":
             show_string_length(sys.argv)
 
+    """ Configure Apache """
+    if sys.argv[1] == "ap":
+        config_apache()
+    #//if sys.argv[1] == "ap"
 #//dispatch()
 
 if __name__ == '__main__':
