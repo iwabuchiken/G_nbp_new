@@ -222,6 +222,115 @@ def get_time_label2():
       
   return "".join(t2[:3]) + "_" + "".join(t2[3:])
 
+def get_time_label2_span_v1(t1, t2):
+    #
+    a = t1.split("_")[1]
+    b = t2.split("_")[1]
+    
+    a1 = a[0:2]; a2 = a[2:4]; a3 = a[4:6];
+    b1 = b[0:2]; b2 = b[2:4]; b3 = b[4:6];
+    
+    # Seconds
+    c3 = int(b3) - int(a3)
+    
+    if c3 < 0:
+#        c3 = int(a3) - int(b3)
+        c3 = int(b3) + 60 - int(a3)
+        
+#        if int(b2) < 1:
+#            b1 = str(int(b1) - 1)
+#            b2 = "59"
+#        else:
+        b2 = str(int(b2) - 1)
+    else:
+        c3 = int(b3) - int(a3)
+    
+    print b2, " ", c3
+#    puts b2
+
+    # Minutes
+    c2 = int(b2) - int(a2)
+    
+    print "c2=", c2
+    
+    if c2 < 0:
+        print "c2 < 0"
+        c2 = (int(b2) + 60) - int(a2)
+        
+        b1 = str(int(b1) - 1)
+
+    print b1, " ", c2, " ", c3
+    print int(b1) - int(a1), " ", c2, " ", c3
+#//def get_time_label2_span()
+
+def get_time_label2_span(t1, t2):
+    #
+    a = t1.split("_")[1]
+    b = t2.split("_")[1]
+    
+    a1 = a[0:2]; a2 = a[2:4]; a3 = a[4:6];
+    b1 = b[0:2]; b2 = b[2:4]; b3 = b[4:6];
+
+#    print "a=%s:%s:%s" % (a1, a2, a3)
+#    print "b=%s:%s:%s" % (b1, b2, b3)
+
+    ia1 = int(a1); ia2 = int(a2); ia3 = int(a3);
+    ib1 = int(b1); ib2 = int(b2); ib3 = int(b3);
+    
+    ic1 = ic2 = ic3 = 0
+    
+    # Seconds
+    ic3 = ib3 - ia3
+
+#    print "ia1=%d ia2=%d ia3=%d" % (ia1, ia2, ia3)
+#    print "ib1=%d ib2=%d ib3=%d" % (ib1, ib2, ib3)
+
+    if ic3 < 0:
+#        ic3 = ia3 - ib3
+        ic3 = ib3 + 60 - ia3
+        ib2 = ib2 - 1
+
+#    print
+#    print "ia1=%d ia2=%d ia3=%d" % (ia1, ia2, ia3)
+#    print "ib1=%d ib2=%d ib3=%d" % (ib1, ib2, ib3)
+#    print "ic1=%d ic2=%d ic3=%d" % (ic1, ic2, ic3)
+
+    # Minutes
+    ic2 = ib2 - ia2
+    
+    if ic2 < 0:
+        ic2 = ib2 + 60 - ia2
+        ib1 = ib1 - 1
+
+#    print
+#    print "ia1=%d ia2=%d ia3=%d" % (ia1, ia2, ia3)
+#    print "ib1=%d ib2=%d ib3=%d" % (ib1, ib2, ib3)
+#    print "ic1=%d ic2=%d ic3=%d" % (ic1, ic2, ic3)
+    
+    # Hours
+    ic1 = ib1 - ia1
+    
+#    print
+#    print "ic1=%d ic2=%d ic3=%d" % (ic1, ic2, ic3)
+    
+    # Modify length
+    c1 = c2 = c3 = ""
+    
+    c1 = str(ic1)
+    
+    if len(str(ic3)) < 2:
+        c3 = "0" + str(ic3)
+    else:
+        c3 = str(ic3)
+    
+    if len(str(ic2)) < 2:
+        c2 = "0" + str(ic2)
+    else:
+        c2 = str(ic2)
+    
+    return "%s:%s:%s" % (c1, c2, c3)
+#//def get_time_label2_span()
+
 def handle_STOR_dir(dir_name):
 	print "./STOR_%s" % dir_name
 	if os.path.isdir("./STOR_%s" % dir_name) == False:
@@ -885,13 +994,18 @@ def etc_commands():
     # 00-2 ============================
       """ option: time """
       if sys.argv[1] == "time" or sys.argv[1] == "t":
-        print "\t", get_time_label2()
+        if len(sys.argv) > 2:
+            print "\t", get_time_label2_span(sys.argv[2], sys.argv[3])
+        else:
+            print "\t", get_time_label2()
         sys.exit(0)
 
     # 00-3 ============================
       """ option: cf """
       if sys.argv[1] == "cf":
         copy_individual_files()
+
+#//def etc_commands():
 
 if __name__ == '__main__':
     # 00 =============================
