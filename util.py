@@ -29,6 +29,9 @@ import traceback
 
 import random
 
+#
+import platform
+
 # variables ============s============
 VERSION = ["3.0", "2011/07/31-13:43:16"]
 
@@ -996,10 +999,20 @@ def etc_commands():
     # 00-2 ============================
       """ option: time """
       if sys.argv[1] == "time" or sys.argv[1] == "t":
-        if len(sys.argv) > 2:
-            print "\t", get_time_label2_span(sys.argv[2], sys.argv[3])
+#        #debug
+#        print "len(sys.argv)=", len(sys.argv)
+        
+        if platform.system() == "Linux":
+            if len(sys.argv) > 3:
+                print "\t", get_time_label2_span(sys.argv[2], sys.argv[3])
+            else:
+                print "\t", get_time_label2()
         else:
-            print "\t", get_time_label2()
+            if len(sys.argv) > 2:
+                print "\t", get_time_label2_span(sys.argv[2], sys.argv[3])
+            else:
+                print "\t", get_time_label2()
+            
         sys.exit(0)
 
       """ option: time """

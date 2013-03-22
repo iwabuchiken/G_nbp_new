@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/usr/bin/python ./util.py $1 $1 $3
+
