@@ -49,6 +49,8 @@ USAGE = """<<Usage>>
         recalibrate version signiture
     time
         show time label --> Ex: 20111127_123814
+    t2
+        show time label --> Ex: 2013/03/23 07:45:27
     -h
         show usage
     -J
@@ -999,6 +1001,13 @@ def etc_commands():
         else:
             print "\t", get_time_label2()
         sys.exit(0)
+
+      """ option: time """
+      if sys.argv[1] == "t2":
+          
+          print "\t", get_time_label3()
+          
+          sys.exit(0)
 
     # 00-3 ============================
       """ option: cf """
