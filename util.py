@@ -68,6 +68,19 @@ USAGE = """<<Usage>>
     -k<number>
         generate passowrds with <number> of chars
         => Ex: "-k10" ---> "0eR705FIx6"
+        
+        -ka10
+        	=> "ejcihhbjbf"	Small letters only
+        
+        -kA10
+        	=> "GGGJFAABEB"	Capital letters only
+        	
+        -kn10
+        	=> "5129482724"	Numbers only
+        
+        -kxa1n3
+        	=> "g472"	Set format
+        	
     -L<file name>
         name of the file for logging
     -T<sentences>
@@ -614,6 +627,7 @@ def handle_args():
 
       """ options other than '-k' """
       for x,y in opts:
+#        if x == "-h" or x == "help": print USAGE; sys.exit()
         if x == "-h": print USAGE; sys.exit()
         if x == "-v":
             """
